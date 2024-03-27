@@ -1,0 +1,394 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/0.jpg"
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Wheel of Fortune",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Devil",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Judement",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Age of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Two of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Three of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Four of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Five of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/26.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Six of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Seven of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Eight of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/29.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Nine of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/30.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Ten of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/31.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Page of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/32.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Knight of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/33.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Queen of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/34.jpg"
+    },
+    {
+      "id": 35,
+      "name": "King of Wands",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/35.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Ace of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/36.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Two of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/37.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Three of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/38.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Four of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/39.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Five of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/40.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Six of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/41.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Seven of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/42.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Eight of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/43.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Nine of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/44.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Ten of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/45.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Page of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/46.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Knight of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/47.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Queen of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/48.jpg"
+    },
+    {
+      "id": 49,
+      "name": "King of Cups",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/49.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/50.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/51.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/52.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/53.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/54.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/55.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/56.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/57.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/58.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/59.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/60.jpg"
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/61.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/62.jpg"
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/63.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Ace of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/64.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Two of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/65.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Three of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/66.jpg"
+    },
+    {
+      "id": 67,
+      "name": "Four of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/67.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Five of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/68.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Six of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/69.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Seven of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/70.jpg"
+    },
+    {
+      "id": 71,
+      "name": "Eight of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/71.jpg"
+    },
+    {
+      "id": 72,
+      "name": "Nine of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/72.jpg"
+    },
+    {
+      "id": 73,
+      "name": "Ten of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/73.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Page of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/74.jpg"
+    },
+    {
+      "id": 75,
+      "name": "Knight of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/75.jpg"
+    },
+    {
+      "id": 76,
+      "name": "Queen of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/76.jpg"
+    },
+    {
+      "id": 77,
+      "name": "King of Coins",
+      "image_url": "https://gfx.tarot.com/images/site/decks/rider/full_size/77.jpg"
+    }
+  ]
+}

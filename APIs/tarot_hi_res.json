@@ -1,0 +1,394 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "image_url": "https://i.ibb.co/Rgx15mV/0603205238985-00-93f05f199fe56df4354be531f1666b53.jpg"
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "image_url": "https://i.ibb.co/V2TpFYt/0603205238985-02-5d4153da20d3d91dc0b84dd27247c1a5.jpg"
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "image_url": "https://i.ibb.co/vQ2f3jr/0603205238985-03-5c4ec1905aeae9bec5909153315e0269.jpg"
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "image_url": "https://i.ibb.co/KFRGNh0/0603205238985-04-e8af89ff25c8ad2180e1d6b564fe1930.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "image_url": "https://i.ibb.co/zfHXWx9/0603205238985-05-64a833c7ec42a8634fd0bbc92a1820a3.jpg"
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "image_url": "https://i.ibb.co/KyGZgbf/0603205238985-06-2f083cd664f6a22ef6a6bb0033183204.jpg"
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "image_url": "https://i.ibb.co/thynW7y/0603205238985-07-7049a3682c6707cd661a0c92b0d4b8a0.jpg"
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "image_url": "https://i.ibb.co/VVxQbpB/0603205238985-08-c9344575d1cfb36a722090fa6f465eda.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "image_url": "https://i.ibb.co/MfmYdJw/0603205238985-09-fdb39f49409ce4c2a134479f4eb457f5.jpg"
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "image_url": "https://i.ibb.co/f92JGwS/0603205238985-10-73075cf1cc03d23a3c959b8d3907aa8c.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Wheel of Fortune",
+      "image_url": "https://i.ibb.co/xM814g3/0603205238985-11-aa5c6d94399a6c68c5ccf0938200b98d.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "image_url": "https://i.ibb.co/TB6t6jd/0603205238985-12-cb2452b3e455ec55a11fe96848da0f79.jpg"
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "image_url": "https://i.ibb.co/HGszqgG/0603205238985-13-8a692ffa7c224b4ca161439322e33f37.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "image_url": "https://i.ibb.co/kQp5RmZ/0603205238985-14-b69ffe0fc74c305601c760be0000c7d9.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "image_url": "https://i.ibb.co/R913gCL/0603205238985-15-ad3f1fc96c2cae2a0b41441c428b6d7b.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Devil",
+      "image_url": "https://i.ibb.co/FBnsC2L/0603205238985-16-3f282861b00f9fe6246cd8079fa7979e.jpgg"
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "image_url": "https://i.ibb.co/JRr8CPZ/0603205238985-17-9bdf22277b1ca874d5a917140147278b.jpg"
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "image_url": "https://i.ibb.co/7RbKX6N/0603205238985-18-6fbc854cb785a8cee939e015aa27dbf5.jpg"
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "image_url": "https://i.ibb.co/J3f3bkh/0603205238985-19-268a5422bfd02678fbae1d39b384078c.jpg"
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "image_url": "https://i.ibb.co/17zjNKj/0603205238985-20-293caf99d19b4ba945159633c916d22a.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Judement",
+      "image_url": "https://i.ibb.co/NNbM7s5/0603205238985-21-696ecb953297e3192d5f2c898e16b131.jpg"
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "image_url": "https://i.ibb.co/59N3f6Z/0603205238985-22-cb000efb9912b049b4ac4b2f450880b2.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Age of Wands",
+      "image_url": "https://i.ibb.co/Pjw0BKr/0603205238985-23-22ed1687f1e202dc482890610651359b.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Two of Wands",
+      "image_url": "https://i.ibb.co/VBLRJRD/0603205238985-24-573cb51379511fac771ec62bf35de19a.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Three of Wands",
+      "image_url": "https://i.ibb.co/1GyxnZG/0603205238985-25-f81b98bea89c8cba692948138ebd82df.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Four of Wands",
+      "image_url": "https://i.ibb.co/m5sz9wq/0603205238985-26-bd3ba5d3b1f11bc058249188d3a71a65.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Five of Wands",
+      "image_url": "https://i.ibb.co/T1y59rc/0603205238985-27-6a8a0ca314e8ac55dd143a9c4042f2df.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Six of Wands",
+      "image_url": "https://i.ibb.co/RHM8Hzg/0603205238985-28-a14a3ab44e937ba0de149408c8480729.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Seven of Wands",
+      "image_url": "https://i.ibb.co/JFc9rc5/0603205238985-29-1b6a140aedd216e64a674cf9a6c41b58.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Eight of Wands",
+      "image_url": "https://i.ibb.co/zsrRQdq/0603205238985-30-04e181abfa90d0f747c0497fe350d59b.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Nine of Wands",
+      "image_url": "https://i.ibb.co/4mG5J76/0603205238985-31-f88b72539a9a9779f8cf313cb566767c.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Ten of Wands",
+      "image_url": "https://i.ibb.co/9tjd66Q/0603205238985-32-67f868802676ebce90a210d956fc0294.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Page of Wands",
+      "image_url": "https://i.ibb.co/3zfmjpR/0603205238985-33-ac2ff146e881ad7299d39cd40120a7dd.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Knight of Wands",
+      "image_url": "https://i.ibb.co/jJrfykd/0603205238985-34-06fe5991a12a0e820ca8447aa7af002f.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Queen of Wands",
+      "image_url": "https://i.ibb.co/BzPg75Z/0603205238985-35-b1a791a787875aede882b7448a94a834.jpg"
+    },
+    {
+      "id": 35,
+      "name": "King of Wands",
+      "image_url": "https://i.ibb.co/th6S6cc/0603205238985-36-678c7a520dc6d9f72b26966f477092dc.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Ace of Cups",
+      "image_url": "https://i.ibb.co/xqdxxfg/0603205238985-37-4f17a5163b978034a5b8a841b121443f.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Two of Cups",
+      "image_url": "https://i.ibb.co/RSXNg3n/0603205238985-38-5da1301e81586bcf8c47b1d94ba468a2.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Three of Cups",
+      "image_url": "https://i.ibb.co/GdZtbPd/0603205238985-39-c50a4a2b55cdd14c62afa7bb3a8a2fcf.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Four of Cups",
+      "image_url": "https://i.ibb.co/LtHFZ6Z/0603205238985-40-c5bee31e1c8097c9d27b0b3851976433.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Five of Cups",
+      "image_url": "https://i.ibb.co/0Qg9JFb/0603205238985-41-dbd7e4f939f2bbf0be8f4747f85a696c.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Six of Cups",
+      "image_url": "https://i.ibb.co/7tBRCDX/0603205238985-42-b90e636ae4a7bfb9be97780bf285cf4f.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Seven of Cups",
+      "image_url": "https://i.ibb.co/SDSf2wD/0603205238985-43-88df5949ec785c0a52e205e8c38eec31.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Eight of Cups",
+      "image_url": "https://i.ibb.co/YLMm5pT/0603205238985-44-2699f4553247ad8fd0b10062199d6173.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Nine of Cups",
+      "image_url": "https://i.ibb.co/ZfNXHft/0603205238985-45-d6c490c86d283bde215abad952b920f6.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Ten of Cups",
+      "image_url": "https://i.ibb.co/9c1vjpT/0603205238985-46-d684f3dfaea4ff1f3dd4a3a5bb8e77fa.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Page of Cups",
+      "image_url": "https://i.ibb.co/phZ4Yqv/0603205238985-47-b883905ee3aebd3ca64c142c64972734.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Knight of Cups",
+      "image_url": "https://i.ibb.co/QNdmN8X/0603205238985-48-2ed9176076924d8f685406e304a2eeed.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Queen of Cups",
+      "image_url": "https://i.ibb.co/W0BQTgR/0603205238985-49-a2c774c05026e44ef20f7f62fe54326c.jpg"
+    },
+    {
+      "id": 49,
+      "name": "King of Cups",
+      "image_url": "https://i.ibb.co/jZwXSZ7/0603205238985-50-063fba44f1a033a2093808ef2a485070.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "image_url": "https://i.ibb.co/34KkSQP/0603205238985-51-9f25eaa7c24df141d7c46e7a7249540f.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "image_url": "https://i.ibb.co/WKn95nT/0603205238985-52-dc83a5e1ab8670b65fa0936705cb3cc5.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "image_url": "https://i.ibb.co/HNGjYvp/0603205238985-53-12af23e32d659ec73b276020ddf64c56.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "image_url": "https://i.ibb.co/6yLXL59/0603205238985-54-2d0e5181347701959cca210db239487b.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "image_url": "https://i.ibb.co/47YcxFS/0603205238985-55-9678e102349090196462da7b876869f2.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "image_url": "https://i.ibb.co/17Z00PZ/0603205238985-56-2c025245d18e13aa89bce15bdb949e6a.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "image_url": "https://i.ibb.co/pKhcVWH/0603205238985-57-6d88d900c18809aaa1556f523d86edce.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "image_url": "https://i.ibb.co/ZMHLvjC/0603205238985-58-d2627b0bdaf92ca202b9d578f52be080.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "image_url": "https://i.ibb.co/FJdGCxx/0603205238985-59-8c86e6bbff27661032b574a00b564182.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "image_url": "https://i.ibb.co/Jyy9tnD/0603205238985-60-484c1e947ec887147750d73bebcc445f.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "image_url": "https://i.ibb.co/3SbkJBL/0603205238985-61-cb93169c7f120640584c2b00883308ae.jpg"
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "image_url": "https://i.ibb.co/MShrxy6/0603205238985-62-4fa0a11fd5c5a00edcf37ac3f74d2368.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "image_url": "https://i.ibb.co/Fx8sRvW/0603205238985-63-f02af86ef55229b471c1d1253058b510.jpg"
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "image_url": "https://i.ibb.co/p3f5q3R/0603205238985-64-eb7c6746fbeb4552de04798d005a36f0.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Ace of Coins",
+      "image_url": "https://i.ibb.co/3rn0mM1/0603205238985-65-5018e5b72e8ce116f1376028264ff011.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Two of Coins",
+      "image_url": "https://i.ibb.co/GkTB2wv/0603205238985-66-9382be81d66ecc68554be184f491e74e.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Three of Coins",
+      "image_url": "https://i.ibb.co/N7S89Zm/0603205238985-67-ca47dcd4f58e8abc3b28f195a05e0d6a.jpg"
+    },
+    {
+      "id": 67,
+      "name": "Four of Coins",
+      "image_url": "https://i.ibb.co/9yVw7s3/0603205238985-68-1e943fd4e127e727cb382f0a37e86547.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Five of Coins",
+      "image_url": "https://i.ibb.co/PjTW669/0603205238985-69-97a9f13f1c3faa0055f618793814566d.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Six of Coins",
+      "image_url": "https://i.ibb.co/Zx2dnp4/0603205238985-70-21a2e3232549fb406da262e7797c90ab.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Seven of Coins",
+      "image_url": "https://i.ibb.co/6Zs6Qzq/0603205238985-71-9c63f27770932ab0a1157e3b4451f3ff.jpg"
+    },
+    {
+      "id": 71,
+      "name": "Eight of Coins",
+      "image_url": "https://i.ibb.co/fknJ3Zm/0603205238985-72-9e15c3c6db108357f05fbec114896e86.jpg"
+    },
+    {
+      "id": 72,
+      "name": "Nine of Coins",
+      "image_url": "https://i.ibb.co/sHsyf4W/0603205238985-73-539ab150d137b2806c779b2eb3d1c524.jpg"
+    },
+    {
+      "id": 73,
+      "name": "Ten of Coins",
+      "image_url": "https://i.ibb.co/vHg8BDg/0603205238985-74-c8de13051cf37f0034195c0a15fc832d.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Page of Coins",
+      "image_url": "https://i.ibb.co/DzdRHPw/0603205238985-75-efa6dbb48e298f27acdd3c04dd98e241.jpg"
+    },
+    {
+      "id": 75,
+      "name": "Knight of Coins",
+      "image_url": "https://i.ibb.co/CBvNh6t/0603205238985-76-219a1516764dd89076f68cc3fe13f06b.jpg"
+    },
+    {
+      "id": 76,
+      "name": "Queen of Coins",
+      "image_url": "https://i.ibb.co/y0NqKhX/0603205238985-77-254af0100053c750f194bd3cb5e7ff66.jpg"
+    },
+    {
+      "id": 77,
+      "name": "King of Coins",
+      "image_url": "https://i.ibb.co/99XHMGX/0603205238985-78-acb14b5f1e2011ce9729ab2925e95c0c.jpg"
+    }
+  ]
+}

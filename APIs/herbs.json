@@ -1,0 +1,440 @@
+{
+  "teas": [
+    {
+      "id": "1",
+      "name": "Chamomile",
+      "image_url": "https://m.media-amazon.com/images/I/71oK1eqNX7L._SL1500_.jpg",
+      "description": "Chamomile is an all-time favorite herbal remedy all around the world. It’s been around for thousands of years, and used mostly for its calming effect. Chamomile may help reduce inflammation, treat stomach pain, aid sleep and promote calmness and muscle relaxation.",
+      "benefits": [
+        "inflamation",
+        "stomach pain",
+        "sleep",
+        "calmness",
+        "muscle"
+      ],
+      "amazon_url": "https://www.amazon.com/Celestial-Seasonings-Herbal-Chamomile-Count/dp/B000E6829G/ref=sr_1_6?crid=1T0QRTFI2F6IF&keywords=chamomile+tea&qid=1676683356&sprefix=chamomile+te%2Caps%2C209&sr=8-6"
+    },
+    {
+      "id": "2",
+      "name": "Peppermint",
+      "image_url": "https://m.media-amazon.com/images/I/71R6+d-Em3L._SL1500_.jpg",
+      "description": "Peppermint is used world-wide for its refreshing and calming properties. Tea has a lightly sweet and refreshing flavor that may help with bad breath. The most important benefits include stress relief, aiding digestion and soothing stomach[2], boosting immune system and relieving the symptoms of common cold.",
+      "benefits": ["stress relief", "digestion", "stomach", "immune", "cold"],
+      "amazon_url": "https://www.amazon.com/Twinings-Pure-Peppermint-count-Bags/dp/B079YD2X7W/ref=sr_1_6?crid=3MGO94W7C811L&keywords=peppermint+tea&qid=1676683437&sprefix=peppermint+te%2Caps%2C181&sr=8-6"
+    },
+    {
+      "id": "3",
+      "name": "Rosehip",
+      "image_url": "https://m.media-amazon.com/images/I/81g0RMA020L._SL1500_.jpg",
+      "description": "Rosehips are a great source of vitamin C and antioxidants. Studies suggest that the antioxidant activity may be higher than those of popular berries such as blueberries or black currants. They may help with achieving weight loss goals, protect the brain and skin from aging.",
+      "benefits": ["weight loss", "brain", "skin", "aging"],
+      "amazon_url": "https://www.amazon.com/Onno-Behrends-Rosehip-Count-Ounce/dp/B00CVOULZC/ref=sr_1_5?crid=30Q6C0IFFH4K7&keywords=rosehip+tea&qid=1676683477&sprefix=rosehip+te%2Caps%2C217&sr=8-5"
+    },
+    {
+      "id": "4",
+      "name": "Rooibos",
+      "image_url": "https://m.media-amazon.com/images/I/71yysa03JlL._SL1500_.jpg",
+      "description": "In the last couple of decades, rooibos is capturing the hearts of many tea drinkers around the world. This tea, grown exclusively in South Africa, has a distinctive earthy and sweet flavor, perfect for blending with other herbs, fruits or flowers. This tea is used not only for its flavor, but for its potent antioxidant activity and many potential benefits – from reducing cholesterol and high blood pressure, to treating colic in infants and increasing airflow to the lungs.",
+      "benefits": ["cholesterol", "high blood pressure", "colic", "lung"],
+      "amazon_url": "https://www.amazon.com/Twinings-Tea-African-Rooibos-Pack/dp/B0788V23B2/ref=sr_1_5?crid=3JS2XRKI3LU9L&keywords=Rooibos+tea&qid=1676683510&sprefix=rooibos+tea%2Caps%2C222&sr=8-5"
+    },
+    {
+      "id": "5",
+      "name": "Ginger",
+      "image_url": "https://m.media-amazon.com/images/I/81GytUHcRaS._SL1500_.jpg",
+      "description": "The main use of ginger tea is help with upset stomach and nausea and for adding a spicy touch to tea blends, especially chai tea. But ginger has many more potential benefits–from protecting the brain and heart, lowering blood sugar and anti-cancer properties.",
+      "benefits": ["brain", "heart", "blood sugar", "anti-cancer"],
+      "amazon_url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853/ref=sr_1_5?crid=3616VXZQ7KXQH&keywords=ginger+tea&qid=1676683549&sprefix=ginger+te%2Caps%2C224&sr=8-5"
+    },
+    {
+      "id": "6",
+      "name": "Cinnamon",
+      "image_url": "https://m.media-amazon.com/images/I/61eeZx5N5FL._SL1000_.jpg",
+      "description": "Studies showed that cinnamon, one of the most popular spices around the world, has an anti oxidant and anti-inflammatory properties and may help with lowering blood pressure and protecting the heart.",
+      "benefits": ["blood pressure", "heart"],
+      "amazon_url": "https://www.amazon.com/Harney-Sons-Hot-Cinnamon-Spice/dp/B0065JA1IQ/ref=sr_1_6?crid=2FW4VWQK16SDL&keywords=cinnamon+tea&qid=1676683587&sprefix=cinnamon+te%2Caps%2C194&sr=8-6"
+    },
+    {
+      "id": "7",
+      "name": "Lemongrass",
+      "image_url": "https://m.media-amazon.com/images/I/61YgzGR-vkL._SL1000_.jpg",
+      "description": "Lemongrass, a delicious herb used both as a spice and tea may help relieve the pain and anxiety, lower blood pressure, act as antioxidant and help with weight management. Studies showed it also has antibacterial and anti inflammatory properties.",
+      "benefits": ["pain", "anxiety", "blood pressure", "weight"],
+      "amazon_url": "https://www.amazon.com/HANDPICK-Organic-Lemongrass-Caffeine-Eco-conscious/dp/B09YXMVQTV/ref=sr_1_5?crid=39FM22A1IEJ1K&keywords=lemongrass+tea&qid=1676683617&sprefix=lemongrass+te%2Caps%2C206&sr=8-5"
+    },
+    {
+      "id": "8",
+      "name": "Tulsi",
+      "image_url": "",
+      "description": "Tulsi or Holy Basil is an adaptogenic herb used for its ability to reduce stress naturally and benefit the overall health. Adaptogenic herbs are often used for dealing with lifestyle-related diseases, especially different types of stress. Tulsi has anti-inflammatory, antioxidant, antidiabetic, anticancer, antimicrobial and radioprotective properties.",
+      "benefits": ["diabetic", "cancer", "microbial", "radioprotective"],
+      "amazon_url": ""
+    },
+    {
+      "id": "9",
+      "name": "Rosemary",
+      "image_url": "https://m.media-amazon.com/images/I/71weRcynsZL._SL1500_.jpg",
+      "description": "If you love using rosemary for cooking, you will love a cup of rosemary tea too. Rosemary may provide several benefits–from helping with Alzheimer’s disease[11] to treating anxiety.",
+      "benefits": ["alzheimer", "anxiety"],
+      "amazon_url": "https://www.amazon.com/Organic-India-Tulsi-Mix-Pound/dp/B00GDIJEPA/ref=sr_1_6?crid=1MORM8YT3YN3F&keywords=tulsi+tea&qid=1676683642&sprefix=tulsi+te%2Caps%2C183&sr=8-6"
+    },
+    {
+      "id": "10",
+      "name": "Olive Leaf",
+      "image_url": "https://m.media-amazon.com/images/I/71PzMOsBckL._SL1500_.jpg",
+      "description": "Olive leaf tea is still one of the unexplored gems in the world of herbal tea, except in the Mediterranean countries where it has been used for treating several health problems. This tea is made from dried olive tree leaves. It has a lightly sweet and refreshing taste. It may have potential use in preventing cancer[13], lowering cholesterol and blood sugar, and helping with weight loss.",
+      "benefits": ["cancer", "cholesterol", "blood sugar", "weight"],
+      "amazon_url": "https://www.amazon.com/Yerbero-Europaea-Resealable-Nature100-Gluten-free/dp/B0BT6SSG7L/ref=sr_1_6?crid=3D08ZB535YDHY&keywords=olive+leaf+tea&qid=1676683673&sprefix=olive+leaf+tea%2Caps%2C435&sr=8-6"
+    },
+
+    {
+      "id": "11",
+      "name": "Barley",
+      "image_url": "https://m.media-amazon.com/images/I/91C-41-eqZL._SL1500_.jpg",
+      "description": "Barley tea or mugicha is one of the most popular herbal teas in eastern Asia. This delicious tea is commonly used for aiding digestion and promoting weight loss.",
+      "benefits": ["digestion", "weight"],
+      "amazon_url": "https://www.amazon.com/Organic-8g%C3%9730bags-chemical-fertilizer-Caffeine/dp/B086X6KRMG/ref=sr_1_4?crid=114RWE1HF1107&keywords=barley+tea&qid=1676683699&sprefix=barley+tea%2Caps%2C211&sr=8-4"
+    },
+    {
+      "id": "12",
+      "name": "Licorice",
+      "image_url": "https://m.media-amazon.com/images/I/81X8KX0g1ZL._SL1500_.jpg",
+      "description": "Licorice root tea is one of the naturally sweetest teas in the world. Traditionally, it has been used for treating stomach pain and cough.",
+      "benefits": ["stomach pain", "cough"],
+      "amazon_url": "https://www.amazon.com/Traditional-Medicinals-Licorice-Root-Herbal/dp/B000VPGWUQ/ref=sr_1_7?crid=1687N12FCO2LJ&keywords=licorice+tea&qid=1676683723&sprefix=licorice+te%2Caps%2C214&sr=8-7"
+    },
+    {
+      "id": "13",
+      "name": "Eucalyptus",
+      "image_url": "https://m.media-amazon.com/images/I/71PpGgA6bGL._SL1500_.jpg",
+      "description": "Traditionally, eucalyptus has been used for its antiseptic and antibacterial properties and for different breathing and lungs related problems–from treating the common cold and flu to sore throat and pneumonia.",
+      "benefits": ["lung", "cold", "throat", "pneumonia"],
+      "amazon_url": "https://www.amazon.com/Organic-Eucalyptus-Tea-Caffeine-Free-Bleach-Free/dp/B00DLJ84IC/ref=sr_1_5?crid=16HGFZ2FDIP8U&keywords=eucalyptus+tea&qid=1676683749&sprefix=eucalyptus+%2Caps%2C252&sr=8-5"
+    },
+    {
+      "id": "14",
+      "name": "Iceland Moss",
+      "image_url": "https://m.media-amazon.com/images/I/61BzziXpy2L._SL1431_.jpg",
+      "description": "Iceland moss is one of the potentially most beneficial herbs for treating a sore throat and dry cough, and may provide an instant relief. Another interesting use is treating the loss of appetite.",
+      "benefits": ["throat", "cough", "appetite"],
+      "amazon_url": "https://www.amazon.com/Iceland-Moss-Cetraria-islandica-Embassy/dp/B076ZGVR4M/ref=sr_1_3?crid=217ZVR6FDPIVJ&keywords=iceland+moss+tea&qid=1676683771&sprefix=iceland+moss+t%2Caps%2C191&sr=8-3"
+    },
+    {
+      "id": "15",
+      "name": "Gingko",
+      "image_url": "https://m.media-amazon.com/images/I/71KToNyKdAL._SL1500_.jpg",
+      "description": "Traditionally, gingko is used for treating brain related problems mostly caused by aging. Interestingly, it’s one of the oldest trees in the world. Although there is not enough scientific research to confirm the benefits, gingko is still one of the most popularly used herbal remeries for memory problems.",
+      "benefits": ["memory", "aging"],
+      "amazon_url": "https://www.amazon.com/Organic-Gingko-Biloba-Tea-Caffeine-Free/dp/B00QMO0QD4/ref=sr_1_5?crid=18EM0INPZOIR3&keywords=ginkgo+tea&qid=1676683800&sprefix=gingko+te%2Caps%2C192&sr=8-5"
+    },
+
+    {
+      "id": "16",
+      "name": "Ashwagandha",
+      "image_url": "https://m.media-amazon.com/images/I/71+iHFQHiMS._SL1500_.jpg",
+      "description": "Similar to tulsi, ashwagandha is an adaptogenic herb too. The most common use is for treating stress and anxiety and sleeping problems. Studies have showed it has may help protect the brain and heart, improve memory and even improve muscle strength.",
+      "benefits": [
+        "stress",
+        "anxiety",
+        "sleeping",
+        "brain",
+        "heart",
+        "memory",
+        "muscle"
+      ],
+      "amazon_url": "https://www.amazon.com/Organic-India-Tulsi-Infusion-Ashwaganda/dp/B07NJ7P7S8/ref=sr_1_5_mod_primary_new?crid=1WAHSSCNQDPC1&keywords=ashwagandha+tea&qid=1676683830&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=ashwagandha+te%2Caps%2C254&sr=8-5"
+    },
+    {
+      "id": "17",
+      "name": "Sage",
+      "image_url": "https://m.media-amazon.com/images/I/81XBSTKQ0BL._SL1500_.jpg",
+      "description": "Sage tea has been traditionally used in many countries for relieving pain and fighting infections. Research shows that it may be beneficial for “depression, dementia, obesity, diabetes, lupus, heart disease, and cancer“.",
+      "benefits": [
+        "depression",
+        "dementia",
+        "obesity",
+        "diabetes",
+        "lupus",
+        "heart",
+        "cancer"
+      ],
+      "amazon_url": "https://www.amazon.com/Organic-Sage-Leaf-Tea-Caffeine-Free/dp/B00DLMD3IK/ref=sr_1_1?crid=35DJX9UCQ1L62&keywords=sage+tea&qid=1676683854&sprefix=sage+te%2Caps%2C202&sr=8-1"
+    },
+
+    {
+      "id": "18",
+      "name": "Raspberry",
+      "image_url": "https://m.media-amazon.com/images/I/71otZq+gldL._SL1500_.jpg",
+      "description": "Raspberry leaf tea is mostly used by pregnant women to shorten the labour. Although drinking this tea is considered safe in most cases, more research is needed to see can it actually help and how safe it is.",
+      "benefits": ["pregnancy"],
+      "amazon_url": "https://www.amazon.com/Yogi-Tea-Womans-Raspberry-Supports/dp/B083STZ412/ref=sr_1_2?crid=1P8E0EE2KS2J5&keywords=raspberry+tea&qid=1676683874&sprefix=raspberry+te%2Caps%2C217&sr=8-2"
+    },
+    {
+      "id": "19",
+      "name": "Valerian",
+      "image_url": "https://m.media-amazon.com/images/I/81jQb6tgJ2L._SL1500_.jpg",
+      "description": "Valerian root is one of the most common remedies for treating insomnia. The root is used for making pills and for making tea. It’s considered one of the strongest herb for treating sleep disorders.",
+      "benefits": ["insomnia", "sleep"],
+      "amazon_url": "https://www.amazon.com/Traditional-Medicinals-Organic-Valerian-Relaxation/dp/B007IW25FQ/ref=sr_1_5?crid=2LRJ2THTNAM2N&keywords=valerian+tea&qid=1676683900&sprefix=valerian+te%2Caps%2C215&sr=8-5"
+    },
+    {
+      "id": "20",
+      "name": "Anise Seed",
+      "image_url": "https://m.media-amazon.com/images/I/91sHEFZIVPL._SL1500_.jpg",
+      "description": "Anise seed has traditionally been used for problems related to breathing and digestion. Because of the sweet flavor it’s often used instead of licorice for sweetening other food products and sweets.",
+      "benefits": ["breathing", "digestion"],
+      "amazon_url": "https://www.amazon.com/Celebration-Herbals-Organic-Caffeine-Herbal/dp/B0011DV888/ref=sr_1_4?crid=K0HDC6NR4KF5&keywords=anise+seed+tea&qid=1676683935&sprefix=anise+seed+%2Caps%2C221&sr=8-4"
+    },
+    {
+      "id": "21",
+      "name": "Elderberry Flower",
+      "image_url": "https://m.media-amazon.com/images/I/614XFvkZ1ZL._AC_SL1000_.jpg",
+      "description": "Elderflower tea has an antibacterial and antiviral properties. Flavonoids in elderberry flowers and berries may help in treating influenza, bronchitis and pain relief.",
+      "benefits": ["influenza", "bronchitis", "pain"],
+      "amazon_url": "https://www.amazon.com/Republic-Tea-Organic-Elderberry-Herbal/dp/B00TYPZCFA/ref=sr_1_6?crid=ITIR1VO02BDY&keywords=elderberry+tea&qid=1676683965&sprefix=elderberry+%2Caps%2C237&sr=8-6"
+    },
+    {
+      "id": "22",
+      "name": "Linden Flower",
+      "image_url": "https://m.media-amazon.com/images/I/7149tyo8MvL._SL1500_.jpg",
+      "description": "Linden flower tea is often used for treating common cold, fever, cough and anxiety. This tea has a thick texture because of the high mucilage content that may help soothe the throat.",
+      "benefits": ["throat", "cold", "fever", "cough", "anxiety"],
+      "amazon_url": "https://www.amazon.com/Wild-Bliss-Organic-Linden-Flower/dp/B09FHDZKHZ/ref=sr_1_5?crid=3NQQ2UX87PXB5&keywords=linden+flower+tea&qid=1676683999&sprefix=linden+flower+tea%2Caps%2C183&sr=8-5"
+    },
+    {
+      "id": "23",
+      "name": "Turmeric",
+      "image_url": "https://m.media-amazon.com/images/I/71U9GCiS2oL._SL1500_.jpg",
+      "description": "Turmeric is often used as a spice, as an ingredient in tea blends and for making turmeric milk tea. Studies showed it may be beneficial for protecting heart after some heart surgeries, reducing skin irritation and pain.",
+      "benefits": ["heart", "skin", "pain"],
+      "amazon_url": "https://www.amazon.com/Yogi-Tea-Honey-Turmeric-Vitality/dp/B083SV7Z49/ref=sr_1_5?crid=1XP0CAL5Q3JFH&keywords=turmeric+tea&qid=1676684037&sprefix=turmeric+t%2Caps%2C244&sr=8-5"
+    },
+    {
+      "id": "24",
+      "name": "Moringa",
+      "image_url": "https://m.media-amazon.com/images/I/81QWqXqv+jS._SL1500_.jpg",
+      "description": "Moringa is a “superfood” that may offer many benefits. Studies suggest it may be especially helpful with heart diseases, diabetes, cancer and fatty liver.",
+      "benefits": ["heart", "diabetes", "cancer", "fatty liver"],
+      "amazon_url": "https://www.amazon.com/Organic-Moringa-Eco-Conscious-Kraft-FGO/dp/B07XYJBXLJ/ref=sr_1_5?crid=B4D3NWP26R6P&keywords=moringa+tea&qid=1676684062&sprefix=moringa+te%2Caps%2C225&sr=8-5"
+    },
+    {
+      "id": "25",
+      "name": "Lavender",
+      "image_url": "https://m.media-amazon.com/images/I/81ceBj8txFL._SL1500_.jpg",
+      "description": "Lavender is most commonly used for relaxation, relieving anxiety, calming and lifting mood. It blends well with other calming herbs such as chamomile.",
+      "benefits": ["mood", "anxiety", "calm"],
+      "amazon_url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU/ref=sr_1_5?crid=3F4EDML7N8NHF&keywords=lavender+tea&qid=1676684088&sprefix=lavender+tea%2Caps%2C199&sr=8-5"
+    },
+    {
+      "id": "26",
+      "name": "Pine Needle",
+      "image_url": "https://m.media-amazon.com/images/I/8103WeKg6FL._SL1500_.jpg",
+      "description": "Pine needle tea is one of the most unique herbal teas. If you like the scent of a fresh summer pine forest, this tea will without any doubt bring a smile to your face. Pine needle tea may offer similar benefits and act as antidepressant and lift the mood.",
+      "benefits": ["mood"],
+      "amazon_url": "https://www.amazon.com/wild-foraged-northern-infection-strengthens-antioxidants/dp/B09C73C2FV/ref=sr_1_5?crid=VUCRN5SH4KD1&keywords=pine+needle+tea&qid=1676684112&sprefix=pine+needle+te%2Caps%2C210&sr=8-5"
+    },
+    {
+      "id": "27",
+      "name": "Echinacea",
+      "image_url": "https://m.media-amazon.com/images/I/81dqw4BkT-L._SL1500_.jpg",
+      "description": "The most common use of echinacea tea is for treating symptoms of common cold and for treating depression.",
+      "benefits": ["cold", "depression"],
+      "amazon_url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Elderberry-Promotes/dp/B001F1XCDK/ref=sr_1_5?crid=UQMUB68VHWAN&keywords=echinacea+tea&qid=1676684164&sprefix=echinac%2Caps%2C218&sr=8-5"
+    },
+
+    {
+      "id": "28",
+      "name": "Honeybush",
+      "image_url": "https://m.media-amazon.com/images/I/81j5Cwm-ScL._SL1500_.jpg",
+      "description": "Honeybush, another delicious tea from African continent, has a lot in common with rooibos tea. It’s used for treating cough and for calming effect.",
+      "benefits": ["cough", "calm"],
+      "amazon_url": "https://www.amazon.com/Numi-Organic-Honeybush-Herbal-Packaging/dp/B00142DPE6/ref=sr_1_5?crid=26TGNIITW02D8&keywords=honeybush+tea&qid=1676684136&rdc=1&sprefix=honeybu%2Caps%2C231&sr=8-5"
+    },
+    {
+      "id": "29",
+      "name": "Hibiscus",
+      "image_url": "https://m.media-amazon.com/images/I/81fWbuC+U4S._SL1500_.jpg",
+      "description": "Zesty, beautiful and full of character, hibiscus is one of the most popular flower teas around the world. Research showed it may help with lowering blood pressure and cholesterol.",
+      "benefits": ["blood pressure", "cholesterol"],
+      "amazon_url": "https://www.amazon.com/Organic-Hibiscus-Eco-Conscious-Lined-Kraft/dp/B07ND51YPC/ref=sr_1_5?crid=8AJPRGJGA25A&keywords=hibiscus+tea&qid=1676684192&sprefix=hibiscus+te%2Caps%2C234&sr=8-5"
+    },
+    {
+      "id": "30",
+      "name": "Osmanthus",
+      "image_url": "https://m.media-amazon.com/images/I/514O0+VtLXL.jpg",
+      "description": "Beautiful small yellow flowers of an osmanthus tree may boost the immune system and help fight allergies. Tea has a very delicate peach flavor that goes well with green and black tea.",
+      "benefits": ["allergies", "immune"],
+      "amazon_url": "https://www.amazon.com/ELITEA-Osmanthus-Fragrant-Natural-Healthy/dp/B0154DIWV6/ref=sr_1_5?crid=2UFJTHNV7XUYY&keywords=osmanthus+tea&qid=1676684215&sprefix=osmanthus+te%2Caps%2C200&sr=8-5"
+    },
+    {
+      "id": "31",
+      "name": "Chrysanthemum",
+      "image_url": "https://m.media-amazon.com/images/I/71+1EnjULSL._SL1500_.jpg",
+      "description": "Chrysanthemum tea is one of the most popular flowers teas in China. Studies showed it has a strong antioxidant activity and may help fight free radicals. It’s used for its cooling effect, especially during warm season, for potential sedative effect and lowering blood pressure.",
+      "benefits": ["cool", "blood pressure"],
+      "amazon_url": "https://www.amazon.com/Organic-Chrysanthemum-Floral-Korean-Insomnia/dp/B00IECLB40/ref=sxts_rp_s_a_1_0?content-id=amzn1.sym.eff26b9b-e255-411b-a40d-eccb21f93fe4%3Aamzn1.sym.eff26b9b-e255-411b-a40d-eccb21f93fe4&cv_ct_cx=chrysanthemum+tea&keywords=chrysanthemum+tea&pd_rd_i=B00IECLB40&pd_rd_r=340cc131-64cf-4581-a941-d546f73a4aaa&pd_rd_w=TyoX9&pd_rd_wg=Xr7V0&pf_rd_p=eff26b9b-e255-411b-a40d-eccb21f93fe4&pf_rd_r=MVSR2JBECBSG0QHFZMQR&qid=1676684244&sprefix=chrysa%2Caps%2C208&sr=1-1-5985efba-8948-4f09-9122-d605505c9d1e"
+    },
+
+    {
+      "id": "32",
+      "name": "Rose",
+      "image_url": "https://m.media-amazon.com/images/I/817JSDtJhZL._SL1500_.jpg",
+      "description": "The queen among flower teas, rose, is rich in antioxidants and may help reduce the oxidative stress,[37] benefiting the overall health.",
+      "benefits": ["oxidative stress"],
+      "amazon_url": "https://www.amazon.com/Organic-Flower-Petals-caffeine-herbal/dp/B0796PPGBZ/ref=sr_1_4?crid=398H1AV3HXVRW&keywords=rose+tea&qid=1676684270&s=grocery&sprefix=rose+te%2Cgrocery%2C188&sr=1-4"
+    },
+    {
+      "id": "33",
+      "name": "Jasmine",
+      "image_url": "https://m.media-amazon.com/images/I/81nFeIRPllL._SL1500_.jpg",
+      "description": "The health benefits of jasmine tea include treating anxiety, fever, sunburn and stomach ulcers. However, jasmine has mostly been used in traditional medicine, and more research is needed to confirm the benefits. Because of its flavor and scent, it’s often blended with green tea.",
+      "benefits": ["anxiety", "fever", "sunburn", "stomach ulcer"],
+      "amazon_url": "https://www.amazon.com/Royal-King-Jasmine-Tea-Bags/dp/B008LPW1NA/ref=sr_1_7?crid=23KFP7S7ZQ75M&keywords=jasmine+tea&qid=1676684306&s=grocery&sprefix=jasmine+te%2Cgrocery%2C266&sr=1-7"
+    },
+    {
+      "id": "34",
+      "name": "Yarrow",
+      "image_url": "https://m.media-amazon.com/images/I/71rczdlRZiL._SL1500_.jpg",
+      "description": "Yarrow is mostly used in Europe and North America to treat wounds, soothe the upset stomach, and to relieve menstrual cramps and pain.",
+      "benefits": ["stomach", "menstrual"],
+      "amazon_url": "https://www.amazon.com/Organic-Yarrow-Tea-Caffeine-Free-Bleach-Free/dp/B00QMO2RJU/ref=sr_1_4?crid=J1G1MUSR4AV3&keywords=yarrow+tea&qid=1676684330&s=grocery&sprefix=yarrow+te%2Cgrocery%2C195&sr=1-4"
+    },
+    {
+      "id": "35",
+      "name": "Stinging Nettle",
+      "image_url": "https://m.media-amazon.com/images/I/711HOsjGxEL._SL1200_.jpg",
+      "description": "Nettle is a common “weed” unpopular because of a stinging and burning sensation caused when touching the leaves. However, it may have many potential health benefits. Nettle tea may help reduce the risk of heart diseases, cancer and diabetes, and has a positive effect on blood pressure and even psychotic disorders.",
+      "benefits": [
+        "heart",
+        "cancer",
+        "diabetes",
+        "blood pressure",
+        "psychotic"
+      ],
+      "amazon_url": "https://www.amazon.com/Good-Nature-Organic-Nettle-Ounce/dp/B00CPD7CTW/ref=sr_1_4?crid=2L6496A37V9D5&keywords=stinging+nettle+tea&qid=1676684351&rdc=1&s=grocery&sprefix=stinging+nettle+te%2Cgrocery%2C177&sr=1-4"
+    },
+    {
+      "id": "36",
+      "name": "Dandelion",
+      "image_url": "https://m.media-amazon.com/images/I/71twHMXse8L._SL1500_.jpg",
+      "description": "Dandelion is not only a pretty messenger of spring. Studies showed that the dandelion root may help destroy cells of some cancers and have a potential of becoming a part of alternative treatments.",
+      "benefits": ["cancer"],
+      "amazon_url": "https://www.amazon.com/organic-herbal-tea-dandelion-root-liver-detox-tea-bags/dp/B00W2YP17E/ref=sr_1_4?crid=VU7P2L7GDV1K&keywords=dandelion+tea&qid=1676684378&s=grocery&sprefix=dandelion+tea%2Cgrocery%2C183&sr=1-4"
+    },
+    {
+      "id": "37",
+      "name": "Cranberry",
+      "image_url": "https://m.media-amazon.com/images/I/41RQ4FMvTpL._AC_.jpg",
+      "description": "The most common use of cranberry tea is treating some bacterial infections, mostly in urinary tract infections in both infants, children and adults.",
+      "benefits": ["urinary tract", "bacterial"],
+      "amazon_url": "https://www.amazon.com/Bigelow-Tea-Cranberry-Harvest-Case/dp/B07ZPCCV3V/ref=sr_1_4?crid=X043TMDSKZY9&keywords=cranberry+tea&qid=1676684399&s=grocery&sprefix=cranberry+te%2Cgrocery%2C215&sr=1-4"
+    },
+    {
+      "id": "38",
+      "name": "St John's Wort",
+      "image_url": "https://m.media-amazon.com/images/I/71gWlLe61ZL._SL1500_.jpg",
+      "description": "St John’s wort is of the most used herbal remedies for treating depression, both mild and moderate. Studies showed that in some cases it may be as effective as standard medicine, but ineffective in others.",
+      "benefits": ["depression"],
+      "amazon_url": "https://www.amazon.com/Organic-St-Johns-Wort-Caffeine-Free/dp/B00DLMXS9Y/ref=sr_1_4?crid=NDC0R88Z7AW5&keywords=st+john%27s+wort+tea&qid=1676684442&s=grocery&sprefix=st+john%27s+wort+te%2Cgrocery%2C187&sr=1-4"
+    },
+    {
+      "id": "39",
+      "name": "Yerba Mate",
+      "image_url": "https://m.media-amazon.com/images/I/61kTSoaJmdL._SL1280_.jpg",
+      "description": "A national drink in many South American countries, yerba mate is one of rare herbal teas containing caffeine. It contains antioxidants and may be beneficial for diabetes and weight loss, aid in digestion and even help with depression.",
+      "benefits": ["diabetes", "weight", "digestion", "depression"],
+      "amazon_url": "https://www.amazon.com/Yerba-Mate-Chlorophyll-Antioxidants-Vitamins/dp/B093TDYTWL/ref=sr_1_4?crid=GPT371NF2QB&keywords=yerba+mate+tea&qid=1676684466&s=grocery&sprefix=yerba+mate+te%2Cgrocery%2C179&sr=1-4"
+    },
+
+    {
+      "id": "40",
+      "name": "Guava",
+      "image_url": "https://m.media-amazon.com/images/I/81ZzLWVd54L._SL1500_.jpg",
+      "description": "In traditional medicine, guava leaf tea has been used for treating diabetes and heart disease and parasite infections.",
+      "benefits": ["diabetes", "heart", "parasite"],
+      "amazon_url": "https://www.amazon.com/Yerbero-Psidium-Resealable-Nature100-Gluten-free/dp/B0BSHHBJQF/ref=sr_1_4?crid=7TBJZJJKWINO&keywords=guava+tea&qid=1676684487&s=grocery&sprefix=guave+te%2Cgrocery%2C175&sr=1-4"
+    },
+    {
+      "id": "41",
+      "name": "Gotu Kola",
+      "image_url": "https://m.media-amazon.com/images/I/91jws1ox9XL._AC_SL1500_.jpg",
+      "description": "Gotu kola or Centella asiatica is another adaptogenic herb that is traditionally used for many health problems. Ayurveda believes gotu kola may have a good impact on brain, including treating anxiety, depression and enhancing memory.",
+      "benefits": ["brain", "anxiety", "depression", "memory"],
+      "amazon_url": "https://www.amazon.com/CELEBRATION-HERBALS-Gotu-Organic-Pound/dp/B0011DV88I/ref=sr_1_4?crid=8EKK5S3N9R0Z&keywords=gotu+kola+tea&qid=1676684514&s=grocery&sprefix=gotu+kola+te%2Cgrocery%2C163&sr=1-4"
+    },
+    {
+      "id": "42",
+      "name": "Marshmellow Root",
+      "image_url": "https://m.media-amazon.com/images/I/71SwWadLcML._AC_SL1500_.jpg",
+      "description": "Marshmallow root tea is often used for treating dry cough and inflammation in throat and stomach.",
+      "benefits": ["cough", "throat", "stomach"],
+      "amazon_url": "https://www.amazon.com/Organic-Marshmallow-Tea-Caffeine-GMO-Free/dp/B00DLL31MO/ref=sr_1_3?crid=2KBIO9QPCCE6F&keywords=marshmallow+root+tea&qid=1676684548&s=grocery&sprefix=marshmellow+root+te%2Cgrocery%2C188&sr=1-3"
+    },
+    {
+      "id": "43",
+      "name": "Thyme",
+      "image_url": "https://m.media-amazon.com/images/I/71-YFclY6uL._AC_SL1500_.jpg",
+      "description": "Thyme is one of the signature herbs of Mediterranean cuisine. As tea, it may help with problems related to “respiratory, nervous, and cardiovascular systems.",
+      "benefits": ["respiratory", "nervous", "cardiovascular"],
+      "amazon_url": "https://www.amazon.com/Nature-Organic-Thyme-count-grams/dp/B00CPD7D0A/ref=sr_1_4?crid=1M8AI3ZA9TL3U&keywords=thyme+tea&qid=1676684568&s=grocery&sprefix=thyme+te%2Cgrocery%2C177&sr=1-4"
+    },
+
+    {
+      "id": "44",
+      "name": "Calendula",
+      "image_url": "https://m.media-amazon.com/images/I/71d6sbQek9L._SL1500_.jpg",
+      "description": "Because of its calming, soothing and healing properties, calendula is an ingredient in many skin care products. Externally, tea is used for treating inflammation and for gargling, and internally, for soothing the stomach.",
+      "benefits": ["calm", "soothe", "gargling", "stomach"],
+      "amazon_url": "https://www.amazon.com/Organic-Calendula-Flower-Tea-Caffeine-Free/dp/B00DLFFOR0/ref=sr_1_4?crid=15TDW46TSU98L&keywords=calendula+tea&qid=1676684589&s=grocery&sprefix=calendula+t%2Cgrocery%2C188&sr=1-4"
+    },
+    {
+      "id": "45",
+      "name": "Kuding",
+      "image_url": "https://m.media-amazon.com/images/I/91eOhG15usL._SL1500_.jpg",
+      "description": "One of the most bitter teas in the world, Kuding, may be one of the best teas for skin. Research showed polyphenols in kuding tea may help protect skin from damage caused by UVB rays. The second most important benefit is potential help with losing weight.",
+      "benefits": ["skin", "weight"],
+      "amazon_url": "https://www.amazon.com/Natural-Chinese-Needle-Kuding-Bitter/dp/B000XEHQF0/ref=sr_1_3?crid=2P3H4AGFA5NXB&keywords=kuding+tea&qid=1676684612&s=grocery&sprefix=kuding+tea%2Cgrocery%2C183&sr=1-3"
+    },
+    {
+      "id": "46",
+      "name": "Jiaogulan",
+      "image_url": "https://m.media-amazon.com/images/I/91wCyIlITbL._SL1500_.jpg",
+      "description": "Jiaogulan tea is one of the newer herbal teas in the world of home remedies. It has already showed many potential benefits. Studies showed that jiaogulan tea may have a great potential in treating many cancers. It’s often described as a tea good for overall health.",
+      "benefits": ["cancer"],
+      "amazon_url": "https://www.amazon.com/Pentaphyllum-Majestic-Herbs-Immortality-Caffeine-Free/dp/B01EWUHC7C/ref=sr_1_4?crid=3K3JR2HH1GU77&keywords=jiaogulan+tea&qid=1676684634&s=grocery&sprefix=jiaogulan+tea%2Cgrocery%2C219&sr=1-4"
+    },
+    {
+      "id": "47",
+      "name": "Passion Flower",
+      "image_url": "https://m.media-amazon.com/images/I/71ha+bBxpSL._SL1500_.jpg",
+      "description": "The most common use of Passion flower tea is as a sedative and as a sleeping aid.",
+      "benefits": ["sedative", "sleep"],
+      "amazon_url": "https://www.amazon.com/Organic-Passion-Flower-Bleach-Free-Bags/dp/B00DLLZZXM/ref=sr_1_4?crid=3SBXR3V9R436R&keywords=passion+flower+tea&qid=1676684664&s=grocery&sprefix=passion+flower+te%2Cgrocery%2C178&sr=1-4"
+    },
+    {
+      "id": "48",
+      "name": "Kava",
+      "image_url": "https://m.media-amazon.com/images/I/716wiPOTyJL._SL1500_.jpg",
+      "description": "Kava, another sleepy time and calming tea is used for treating insomnia, anxiety and promoting overall relaxation. Although studies showed it may be beneficial for treating those problems, it may also be toxic for liver, especially when combined with alcohol.",
+      "benefits": ["insomnia", "anxiety", "relaxation", "liver"],
+      "amazon_url": "https://www.amazon.com/Yogi-Tea-Tension-Promotes-Relaxation/dp/B083SV2M91/ref=sr_1_2?crid=587WHIBXKJK0&keywords=kava+tea&qid=1676684683&s=grocery&sprefix=kava+te%2Cgrocery%2C222&sr=1-2"
+    },
+
+    {
+      "id": "49",
+      "name": "Lapacho Bark",
+      "image_url": "https://m.media-amazon.com/images/I/71n61t5I7PL._SL1500_.jpg",
+      "description": "Lapacho tea has both unique flavor and appearance, Dry bark of lapacho tree is traditionally used for reducing inflammation, treating cancers and boosting immune system.",
+      "benefits": ["inflammation", "cancer", "immune"],
+      "amazon_url": "https://www.amazon.com/Lapacho-Bark-Organica-Taheebo-Ip%C3%AA-roxo/dp/B07K8H5CRP/ref=sr_1_1?crid=31CY9ANNCVSNJ&keywords=lapacho+bark+tea&qid=1676684706&s=grocery&sprefix=lapacho+bark+te%2Cgrocery%2C230&sr=1-1"
+    },
+    {
+      "id": "50",
+      "name": "Lemon Balm",
+      "image_url": "https://m.media-amazon.com/images/I/81r6nN7zGFL._SL1500_.jpg",
+      "description": "Melissa or lemon balm is a herb commonly found in Europe, North America and some Asian countries. It belongs to a mint family and has a milder, more lemony flavor. Benefits are similar to those of mint teas. It’s used for stomach problems, calming the body and mind and as diuretic.",
+      "benefits": ["stomach", "calm", "duretic"],
+      "amazon_url": "https://www.amazon.com/Traditional-Medicinals-Lemon-Balm-Pack/dp/B00FQEU7Y4/ref=sr_1_4?crid=1V20PUKX6Z4YR&keywords=lemon+balm+tea&qid=1676684725&s=grocery&sprefix=lemon+balm+te%2Cgrocery%2C217&sr=1-4"
+    }
+  ]
+}

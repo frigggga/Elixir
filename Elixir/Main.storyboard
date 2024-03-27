@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eqd-c6-hUA">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AdventPro-VariableFont_wdth,wght.ttf">
+            <string>AdventPro-Regular</string>
+        </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="H2k-lU-S3s">
+            <objects>
+                <tabBarController id="10u-Ws-cfx" customClass="CustomTabBarController" customModule="Elixir" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MAD-K7-MKy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="viewControllers" id="Sa9-zz-9k7"/>
+                        <segue destination="9xC-2q-pRs" kind="relationship" relationship="viewControllers" id="H4y-iX-zqE"/>
+                        <segue destination="8zF-qh-kVz" kind="relationship" relationship="viewControllers" id="dX9-9T-Fsc"/>
+                        <segue destination="6zL-Df-IYd" kind="relationship" relationship="viewControllers" id="Acu-Ag-SHY"/>
+                        <segue destination="LJd-yC-h6c" kind="relationship" relationship="viewControllers" id="P6p-0m-b7D"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SSQ-VA-fSj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1408" y="-39"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="pJR-5Y-Qnm">
+            <objects>
+                <tabBarController id="eqd-c6-hUA" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eMQ-nJ-PFs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vaU-FV-2b7" kind="relationship" relationship="viewControllers" id="6fo-QC-9Nw"/>
+                        <segue destination="4ty-Ma-q2r" kind="relationship" relationship="viewControllers" id="KNI-Ec-bGq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9os-Hl-RDG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1408" y="-845"/>
+        </scene>
+        <!--Tarot-->
+        <scene sceneID="vlS-P0-2GV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tarot" id="vaU-FV-2b7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="3jh-p7-MLo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z5M-jB-onD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-303" y="-935"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="RxE-oq-hzi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Favorites" id="4ty-Ma-q2r" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="TsJ-D3-gq3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uQw-Ye-stD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-303" y="-804"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="HomeViewController" customModule="Elixir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5Y-B5-gJV">
+                                <rect key="frame" x="20" y="92" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Setting" translatesAutoresizingMaskIntoConstraints="NO" id="AGd-Wa-Dp0">
+                                <rect key="frame" x="25" y="54" width="29" height="30"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good morning," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="uad-jQ-htA">
+                                <rect key="frame" x="25" y="115" width="193.66666666666666" height="36"/>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="30"/>
+                                <color key="textColor" red="0.37254901960784315" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tommy Trojan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="WNW-v3-eY8">
+                                <rect key="frame" x="25" y="151" width="318.33333333333331" height="59"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="50"/>
+                                <color key="textColor" red="0.37254901960784315" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personalized" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="Tb7-zN-fbl">
+                                <rect key="frame" x="25" y="247" width="187.66666666666666" height="37"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="32"/>
+                                <color key="textColor" red="0.37254901959999998" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="UUT-Ra-M6k">
+                                <rect key="frame" x="25" y="328" width="343" height="413"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="recommendationCell" rowHeight="90" id="YpR-hP-WXb" customClass="CustomizedCell" customModule="Elixir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="343" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YpR-hP-WXb" id="D7E-dr-p28">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DCS-QJ-0qh">
+                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Herb's name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="v1h-vE-juL">
+                                                    <rect key="frame" x="116" y="6" width="178" height="25"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                                                    <color key="textColor" red="0.37254901960784315" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$19.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="UIx-m2-HJb">
+                                                    <rect key="frame" x="115.99999999999999" y="36.333333333333336" width="42.333333333333329" height="21.666666666666664"/>
+                                                    <fontDescription key="fontDescription" name="AdventPro-Regular" family="Advent Pro" pointSize="18"/>
+                                                    <color key="textColor" red="0.37254901960784315" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wXQ-wt-8Ol">
+                                                    <rect key="frame" x="280" y="52" width="38" height="38"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="v1h-vE-juL" firstAttribute="width" secondItem="DCS-QJ-0qh" secondAttribute="width" multiplier="2.225" id="0Sh-ZT-Whg"/>
+                                                <constraint firstItem="wXQ-wt-8Ol" firstAttribute="height" secondItem="DCS-QJ-0qh" secondAttribute="height" multiplier="0.475" id="57A-SA-z4r"/>
+                                                <constraint firstItem="v1h-vE-juL" firstAttribute="height" secondItem="DCS-QJ-0qh" secondAttribute="height" multiplier="0.3125" id="6Oq-e7-6ot"/>
+                                                <constraint firstItem="UIx-m2-HJb" firstAttribute="top" secondItem="D7E-dr-p28" secondAttribute="top" constant="36.329999999999998" id="7Jg-So-3r3"/>
+                                                <constraint firstItem="v1h-vE-juL" firstAttribute="leading" secondItem="DCS-QJ-0qh" secondAttribute="trailing" constant="36" id="A4M-ht-U2C"/>
+                                                <constraint firstItem="UIx-m2-HJb" firstAttribute="height" secondItem="DCS-QJ-0qh" secondAttribute="height" multiplier="0.270833" id="DlF-o4-t0H"/>
+                                                <constraint firstAttribute="bottom" secondItem="wXQ-wt-8Ol" secondAttribute="bottom" id="Et0-Fu-wJ0"/>
+                                                <constraint firstItem="DCS-QJ-0qh" firstAttribute="height" secondItem="D7E-dr-p28" secondAttribute="height" multiplier="0.888889" id="IoT-Se-Hhp"/>
+                                                <constraint firstItem="UIx-m2-HJb" firstAttribute="width" secondItem="DCS-QJ-0qh" secondAttribute="width" multiplier="0.529167" id="SDh-KT-lEX"/>
+                                                <constraint firstItem="v1h-vE-juL" firstAttribute="top" secondItem="D7E-dr-p28" secondAttribute="top" constant="6" id="XkC-FZ-E6z"/>
+                                                <constraint firstItem="wXQ-wt-8Ol" firstAttribute="width" secondItem="DCS-QJ-0qh" secondAttribute="width" multiplier="0.475" id="Zrd-ZE-nc3"/>
+                                                <constraint firstAttribute="trailing" secondItem="wXQ-wt-8Ol" secondAttribute="trailing" constant="25" id="dHx-nm-Vwx"/>
+                                                <constraint firstItem="UIx-m2-HJb" firstAttribute="leading" secondItem="v1h-vE-juL" secondAttribute="leading" id="enw-wO-LtB"/>
+                                                <constraint firstItem="DCS-QJ-0qh" firstAttribute="top" secondItem="D7E-dr-p28" secondAttribute="top" id="i0v-pc-EpJ"/>
+                                                <constraint firstItem="DCS-QJ-0qh" firstAttribute="width" secondItem="D7E-dr-p28" secondAttribute="width" multiplier="0.233236" id="sh3-OF-45B"/>
+                                                <constraint firstItem="DCS-QJ-0qh" firstAttribute="leading" secondItem="D7E-dr-p28" secondAttribute="leading" id="zhj-NX-vNS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addButton" destination="wXQ-wt-8Ol" id="AP7-EZ-UT5"/>
+                                            <outlet property="herbName" destination="v1h-vE-juL" id="SwO-Hj-7N4"/>
+                                            <outlet property="herbPrice" destination="UIx-m2-HJb" id="FeD-pM-C2O"/>
+                                            <outlet property="teaImage" destination="DCS-QJ-0qh" id="sZu-rN-I1q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tea recommendations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="DQE-Nx-Xoy">
+                                <rect key="frame" x="25" y="283" width="352" height="37"/>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="32"/>
+                                <color key="textColor" red="0.37254901959999998" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Tb7-zN-fbl" firstAttribute="width" secondItem="DQE-Nx-Xoy" secondAttribute="width" multiplier="0.533144" id="3d5-HI-gEM"/>
+                            <constraint firstItem="uad-jQ-htA" firstAttribute="top" secondItem="AGd-Wa-Dp0" secondAttribute="bottom" constant="31" id="3eC-qo-Rdn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="UUT-Ra-M6k" secondAttribute="bottom" constant="28" id="6Vd-D9-bpf"/>
+                            <constraint firstItem="uad-jQ-htA" firstAttribute="height" secondItem="WNW-v3-eY8" secondAttribute="height" multiplier="0.610169" id="7bc-Dp-4ax"/>
+                            <constraint firstItem="uad-jQ-htA" firstAttribute="leading" secondItem="WNW-v3-eY8" secondAttribute="leading" id="9QN-iF-Eq6"/>
+                            <constraint firstItem="WNW-v3-eY8" firstAttribute="width" secondItem="Tb7-zN-fbl" secondAttribute="width" multiplier="1.69627" id="EF6-M2-PMM"/>
+                            <constraint firstItem="UUT-Ra-M6k" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.872774" id="FPh-M0-DcF"/>
+                            <constraint firstItem="Tb7-zN-fbl" firstAttribute="top" secondItem="WNW-v3-eY8" secondAttribute="bottom" constant="37" id="K8e-5t-Tv5"/>
+                            <constraint firstItem="Tb7-zN-fbl" firstAttribute="height" secondItem="DQE-Nx-Xoy" secondAttribute="height" id="PXg-uf-xMK"/>
+                            <constraint firstItem="DQE-Nx-Xoy" firstAttribute="leading" secondItem="UUT-Ra-M6k" secondAttribute="leading" id="U20-Wv-Tfs"/>
+                            <constraint firstItem="uad-jQ-htA" firstAttribute="width" secondItem="WNW-v3-eY8" secondAttribute="width" multiplier="0.608377" id="UgX-R5-kCM"/>
+                            <constraint firstItem="AGd-Wa-Dp0" firstAttribute="height" secondItem="uad-jQ-htA" secondAttribute="height" multiplier="0.833333" id="XNb-5i-94k"/>
+                            <constraint firstItem="WNW-v3-eY8" firstAttribute="top" secondItem="uad-jQ-htA" secondAttribute="bottom" id="Z0f-0v-dFD"/>
+                            <constraint firstItem="AGd-Wa-Dp0" firstAttribute="leading" secondItem="uad-jQ-htA" secondAttribute="leading" id="ZmR-Nx-t4P"/>
+                            <constraint firstItem="DQE-Nx-Xoy" firstAttribute="height" secondItem="UUT-Ra-M6k" secondAttribute="height" multiplier="0.0895884" id="aUJ-uA-UxL"/>
+                            <constraint firstItem="Tb7-zN-fbl" firstAttribute="leading" secondItem="DQE-Nx-Xoy" secondAttribute="leading" id="mFi-5t-uUH"/>
+                            <constraint firstItem="UUT-Ra-M6k" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="mY9-h9-4xi"/>
+                            <constraint firstItem="AGd-Wa-Dp0" firstAttribute="width" secondItem="uad-jQ-htA" secondAttribute="width" multiplier="0.149742" id="okE-kn-MuK"/>
+                            <constraint firstItem="UUT-Ra-M6k" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.484742" id="pj7-fs-SpI"/>
+                            <constraint firstItem="WNW-v3-eY8" firstAttribute="height" secondItem="Tb7-zN-fbl" secondAttribute="height" multiplier="1.59459" id="qBC-Va-zzM"/>
+                            <constraint firstItem="UUT-Ra-M6k" firstAttribute="top" secondItem="DQE-Nx-Xoy" secondAttribute="bottom" constant="8" symbolic="YES" id="qCV-Xf-fwg"/>
+                            <constraint firstItem="DQE-Nx-Xoy" firstAttribute="top" secondItem="Tb7-zN-fbl" secondAttribute="bottom" constant="-1" id="tZo-tT-Ep6"/>
+                            <constraint firstItem="DQE-Nx-Xoy" firstAttribute="width" secondItem="UUT-Ra-M6k" secondAttribute="width" multiplier="1.02624" id="zEx-3J-H9F"/>
+                            <constraint firstItem="WNW-v3-eY8" firstAttribute="leading" secondItem="Tb7-zN-fbl" secondAttribute="leading" id="zeD-et-1Cm"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="homeBlank" selectedImage="home" id="Gjk-kh-Nvs">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="greeting" destination="uad-jQ-htA" id="fHY-HV-NFk"/>
+                        <outlet property="settingButton" destination="AGd-Wa-Dp0" id="gMd-aH-JlL"/>
+                        <outlet property="tableView" destination="UUT-Ra-M6k" id="9NC-ZV-oxy"/>
+                        <outlet property="username" destination="WNW-v3-eY8" id="dXt-7f-pS5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55.725190839694655" y="-40.140845070422536"/>
+        </scene>
+        <!--Tarot-->
+        <scene sceneID="ZZg-kt-luX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tarot" id="6zL-Df-IYd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Eey-OG-hR5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lvs-1J-fox" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47" y="585"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="nLA-aG-eQO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Chat" id="8zF-qh-kVz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chat" image="bubble.left.and.bubble.right.fill" catalog="system" id="gUe-QC-scz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nsq-3h-pQk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54" y="397"/>
+        </scene>
+        <!--AllTeas-->
+        <scene sceneID="yMu-g3-3zg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AllTeas" id="9xC-2q-pRs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Shop Teas" image="leaf.fill" catalog="system" id="xVk-cR-sdk"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQD-2I-qVM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-43" y="495"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="fxT-L8-LYs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="LJd-yC-h6c" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="6bi-eg-4wI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="91e-CD-f2E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="680"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Setting" width="58" height="30"/>
+        <image name="bubble.left.and.bubble.right.fill" catalog="system" width="128" height="97"/>
+        <image name="home" width="30.666666030883789" height="30.666666030883789"/>
+        <image name="homeBlank" width="14.666666984558105" height="14.666666984558105"/>
+        <image name="leaf.fill" catalog="system" width="128" height="109"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

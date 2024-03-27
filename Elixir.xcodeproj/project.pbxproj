@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767496D429D6D1E400598DB5 /* ReadingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767496D329D6D1E400598DB5 /* ReadingDetailsViewController.swift */; };
+		767725B72999CCFD00D07A72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767725B62999CCFD00D07A72 /* Constants.swift */; };
+		76794A9229D6D40000417ECA /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76794A9129D6D40000417ECA /* Favorites.storyboard */; };
+		76CD8D2829D6003300FBC5FD /* FavoriteReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD8D2729D6003300FBC5FD /* FavoriteReadingViewController.swift */; };
+		76CD8D2E29D6098A00FBC5FD /* TarotReadingsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD8D2D29D6098A00FBC5FD /* TarotReadingsCellTableViewCell.swift */; };
+		8103B74329B44C5000FFDD8C /* tarot.json in Resources */ = {isa = PBXBuildFile; fileRef = 8103B74229B44C5000FFDD8C /* tarot.json */; };
+		8103B74529B4568E00FFDD8C /* Tarot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B74429B4568E00FFDD8C /* Tarot.swift */; };
+		8103B74729B4593A00FFDD8C /* RandomSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B74629B4593A00FFDD8C /* RandomSelectionViewController.swift */; };
+		8103B74929B461B300FFDD8C /* CardConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B74829B461B300FFDD8C /* CardConfirmationViewController.swift */; };
+		8103B74D29BE7AAA00FFDD8C /* CardResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B74C29BE7AAA00FFDD8C /* CardResultViewController.swift */; };
+		8103B76029D2703200FFDD8C /* PromptConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B75F29D2703200FFDD8C /* PromptConfirmationViewController.swift */; };
+		8103B76229D290C900FFDD8C /* TarotSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B76129D290C900FFDD8C /* TarotSelectionViewController.swift */; };
+		8103B76429D2910A00FFDD8C /* ManualSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B76329D2910A00FFDD8C /* ManualSelectionViewController.swift */; };
+		8103B76629D2D1A500FFDD8C /* TarotReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8103B76529D2D1A400FFDD8C /* TarotReading.swift */; };
+		8139240029DB3788007A9694 /* tarot_hi_res.json in Resources */ = {isa = PBXBuildFile; fileRef = 813923FF29DB3788007A9694 /* tarot_hi_res.json */; };
+		8139240229E48607007A9694 /* v4_tarot_no_border.json in Resources */ = {isa = PBXBuildFile; fileRef = 8139240129E48607007A9694 /* v4_tarot_no_border.json */; };
+		818C25082998D6EB00B91137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818C25072998D6EB00B91137 /* Main.storyboard */; };
+		818C250C2998DA2D00B91137 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818C250B2998DA2D00B91137 /* Profile.storyboard */; };
+		818C250E2998E6DB00B91137 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C250D2998E6DB00B91137 /* HomeViewController.swift */; };
+		81ABD214298B29D300B7C920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD213298B29D300B7C920 /* AppDelegate.swift */; };
+		81ABD216298B29D300B7C920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD215298B29D300B7C920 /* SceneDelegate.swift */; };
+		81ABD21B298B29D300B7C920 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD219298B29D300B7C920 /* Chat.storyboard */; };
+		81ABD220298B29D500B7C920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD21E298B29D500B7C920 /* LaunchScreen.storyboard */; };
+		81ABD22B298B29D500B7C920 /* ElixirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD22A298B29D500B7C920 /* ElixirTests.swift */; };
+		81ABD235298B29D500B7C920 /* ElixirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD234298B29D500B7C920 /* ElixirUITests.swift */; };
+		81ABD237298B29D500B7C920 /* ElixirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD236298B29D500B7C920 /* ElixirUITestsLaunchTests.swift */; };
+		81ABD244298F63F700B7C920 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD243298F63F700B7C920 /* GoogleService-Info.plist */; };
+		81ABD245298F63F700B7C920 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD243298F63F700B7C920 /* GoogleService-Info.plist */; };
+		81ABD246298F63F700B7C920 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD243298F63F700B7C920 /* GoogleService-Info.plist */; };
+		81ABD249298F64F100B7C920 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD248298F64F100B7C920 /* FirebaseAnalytics */; };
+		81ABD24B298F64F100B7C920 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD24A298F64F100B7C920 /* FirebaseAuth */; };
+		81ABD24D298F64F100B7C920 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD24C298F64F100B7C920 /* FirebaseCrashlytics */; };
+		81ABD24F298F64F100B7C920 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD24E298F64F100B7C920 /* FirebaseFirestoreSwift */; };
+		81ABD251298F64F100B7C920 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD250298F64F100B7C920 /* FirebaseInAppMessagingSwift-Beta */; };
+		81ABD253298F64F100B7C920 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD252298F64F100B7C920 /* FirebaseMessaging */; };
+		81ABD255298F782F00B7C920 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD254298F782F00B7C920 /* ChatViewController.swift */; };
+		81ABD25A298F78D100B7C920 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD259298F78D100B7C920 /* MessageKit */; };
+		81ABD25D298F981A00B7C920 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD25C298F981A00B7C920 /* Chat.swift */; };
+		81ABD261298F983100B7C920 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD260298F983100B7C920 /* ChatUser.swift */; };
+		81ABD265298F983D00B7C920 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD264298F983D00B7C920 /* Message.swift */; };
+		81ABD26A298F9FF200B7C920 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 81ABD269298F9FF200B7C920 /* Kingfisher */; };
+		81B56C9E29F85E11005193A6 /* v5_tarot_compressed.json in Resources */ = {isa = PBXBuildFile; fileRef = 81B56C9D29F85E11005193A6 /* v5_tarot_compressed.json */; };
+		81CF448829A2086B00682037 /* Herb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF448729A2086B00682037 /* Herb.swift */; };
+		81CF448A29A2092600682037 /* ElixirModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF448929A2092600682037 /* ElixirModel.swift */; };
+		81CF448C29A209CB00682037 /* herbs.json in Resources */ = {isa = PBXBuildFile; fileRef = 81CF448B29A209CB00682037 /* herbs.json */; };
+		81CF449029A2107000682037 /* AllTeas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CF448F29A2107000682037 /* AllTeas.storyboard */; };
+		81CF449229A2121200682037 /* AllTeasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF449129A2121200682037 /* AllTeasViewController.swift */; };
+		81CF449429A215F000682037 /* TeaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF449329A215F000682037 /* TeaCollectionViewCell.swift */; };
+		81CF449629A33B2500682037 /* Tarot.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CF449529A33B2500682037 /* Tarot.storyboard */; };
+		E84CD12129B61378009741BD /* TarotPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CD12029B61378009741BD /* TarotPromptViewController.swift */; };
+		E84CD12229B61378009741BD /* TarotPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CD12029B61378009741BD /* TarotPromptViewController.swift */; };
+		E84CD12329B61378009741BD /* TarotPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CD12029B61378009741BD /* TarotPromptViewController.swift */; };
+		E898504229B5D43F000DCCFD /* CardsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898504129B5D43F000DCCFD /* CardsPicker.swift */; };
+		E898504329B5D43F000DCCFD /* CardsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898504129B5D43F000DCCFD /* CardsPicker.swift */; };
+		E898504429B5D43F000DCCFD /* CardsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898504129B5D43F000DCCFD /* CardsPicker.swift */; };
+		E8A9924729DA537A005D632D /* DMSerifDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9924429DA537A005D632D /* DMSerifDisplay-Italic.ttf */; };
+		E8A9924829DA537A005D632D /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9924529DA537A005D632D /* DMSerifDisplay-Regular.ttf */; };
+		E8A9925E29DA538B005D632D /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9924B29DA538B005D632D /* Poppins-ExtraLight.ttf */; };
+		E8A9925F29DA538B005D632D /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9924C29DA538B005D632D /* Poppins-ThinItalic.ttf */; };
+		E8A9926029DA538B005D632D /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9924D29DA538B005D632D /* Poppins-ExtraLightItalic.ttf */; };
+		E8A9926129DA538B005D632D /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9924E29DA538B005D632D /* Poppins-BoldItalic.ttf */; };
+		E8A9926229DA538B005D632D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9924F29DA538B005D632D /* Poppins-Light.ttf */; };
+		E8A9926329DA538B005D632D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925029DA538B005D632D /* Poppins-Medium.ttf */; };
+		E8A9926429DA538B005D632D /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925129DA538B005D632D /* Poppins-SemiBoldItalic.ttf */; };
+		E8A9926529DA538B005D632D /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925229DA538B005D632D /* Poppins-ExtraBoldItalic.ttf */; };
+		E8A9926629DA538B005D632D /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925329DA538B005D632D /* Poppins-ExtraBold.ttf */; };
+		E8A9926729DA538B005D632D /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925429DA538B005D632D /* Poppins-BlackItalic.ttf */; };
+		E8A9926829DA538B005D632D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925529DA538B005D632D /* OFL.txt */; };
+		E8A9926929DA538B005D632D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925629DA538B005D632D /* Poppins-Regular.ttf */; };
+		E8A9926A29DA538B005D632D /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925729DA538B005D632D /* Poppins-LightItalic.ttf */; };
+		E8A9926B29DA538B005D632D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925829DA538B005D632D /* Poppins-Bold.ttf */; };
+		E8A9926C29DA538B005D632D /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925929DA538B005D632D /* Poppins-Black.ttf */; };
+		E8A9926D29DA538B005D632D /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925A29DA538B005D632D /* Poppins-Thin.ttf */; };
+		E8A9926E29DA538B005D632D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925B29DA538B005D632D /* Poppins-SemiBold.ttf */; };
+		E8A9926F29DA538B005D632D /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925C29DA538B005D632D /* Poppins-Italic.ttf */; };
+		E8A9927029DA538B005D632D /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8A9925D29DA538B005D632D /* Poppins-MediumItalic.ttf */; };
+		E8CB6D0129F1FD8500415863 /* PartialHighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB6D0029F1FD8500415863 /* PartialHighlightButton.swift */; };
+		E8CB6D0329F72C9800415863 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB6D0229F72C9800415863 /* CustomTabBarController.swift */; };
+		E8F3750A29D9D8880075F37E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD21C298B29D500B7C920 /* Assets.xcassets */; };
+		F95E3E592BB3F7460077CEF9 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = F95E3E582BB3F7460077CEF9 /* Readme.md */; };
+		F95E3E5B2BB3FADE0077CEF9 /* App_Preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = F95E3E5A2BB3FADE0077CEF9 /* App_Preview.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81ABD227298B29D500B7C920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ABD208298B29D300B7C920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ABD20F298B29D300B7C920;
+			remoteInfo = Elixir;
+		};
+		81ABD231298B29D500B7C920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ABD208298B29D300B7C920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ABD20F298B29D300B7C920;
+			remoteInfo = Elixir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		767496D329D6D1E400598DB5 /* ReadingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDetailsViewController.swift; sourceTree = "<group>"; };
+		767725B62999CCFD00D07A72 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		76794A9129D6D40000417ECA /* Favorites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		76CD8D2729D6003300FBC5FD /* FavoriteReadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteReadingViewController.swift; sourceTree = "<group>"; };
+		76CD8D2D29D6098A00FBC5FD /* TarotReadingsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotReadingsCellTableViewCell.swift; sourceTree = "<group>"; };
+		8103B74229B44C5000FFDD8C /* tarot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tarot.json; path = APIs/tarot.json; sourceTree = SOURCE_ROOT; };
+		8103B74429B4568E00FFDD8C /* Tarot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarot.swift; sourceTree = "<group>"; };
+		8103B74629B4593A00FFDD8C /* RandomSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSelectionViewController.swift; sourceTree = "<group>"; };
+		8103B74829B461B300FFDD8C /* CardConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardConfirmationViewController.swift; sourceTree = "<group>"; };
+		8103B74C29BE7AAA00FFDD8C /* CardResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResultViewController.swift; sourceTree = "<group>"; };
+		8103B75F29D2703200FFDD8C /* PromptConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptConfirmationViewController.swift; sourceTree = "<group>"; };
+		8103B76129D290C900FFDD8C /* TarotSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotSelectionViewController.swift; sourceTree = "<group>"; };
+		8103B76329D2910A00FFDD8C /* ManualSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualSelectionViewController.swift; sourceTree = "<group>"; };
+		8103B76529D2D1A400FFDD8C /* TarotReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotReading.swift; sourceTree = "<group>"; };
+		813923FF29DB3788007A9694 /* tarot_hi_res.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tarot_hi_res.json; path = APIs/tarot_hi_res.json; sourceTree = SOURCE_ROOT; };
+		8139240129E48607007A9694 /* v4_tarot_no_border.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = v4_tarot_no_border.json; path = APIs/v4_tarot_no_border.json; sourceTree = SOURCE_ROOT; };
+		818C25072998D6EB00B91137 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		818C250B2998DA2D00B91137 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		818C250D2998E6DB00B91137 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		81ABD210298B29D300B7C920 /* Elixir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elixir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ABD213298B29D300B7C920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81ABD215298B29D300B7C920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81ABD21A298B29D300B7C920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Chat.storyboard; sourceTree = "<group>"; };
+		81ABD21C298B29D500B7C920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81ABD21F298B29D500B7C920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81ABD221298B29D500B7C920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ABD226298B29D500B7C920 /* ElixirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElixirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ABD22A298B29D500B7C920 /* ElixirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirTests.swift; sourceTree = "<group>"; };
+		81ABD230298B29D500B7C920 /* ElixirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElixirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ABD234298B29D500B7C920 /* ElixirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirUITests.swift; sourceTree = "<group>"; };
+		81ABD236298B29D500B7C920 /* ElixirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81ABD243298F63F700B7C920 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81ABD254298F782F00B7C920 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		81ABD25C298F981A00B7C920 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		81ABD260298F983100B7C920 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		81ABD264298F983D00B7C920 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		81B56C9D29F85E11005193A6 /* v5_tarot_compressed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v5_tarot_compressed.json; sourceTree = "<group>"; };
+		81CF448729A2086B00682037 /* Herb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herb.swift; sourceTree = "<group>"; };
+		81CF448929A2092600682037 /* ElixirModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirModel.swift; sourceTree = "<group>"; };
+		81CF448B29A209CB00682037 /* herbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = herbs.json; path = APIs/herbs.json; sourceTree = SOURCE_ROOT; };
+		81CF448F29A2107000682037 /* AllTeas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AllTeas.storyboard; sourceTree = "<group>"; };
+		81CF449129A2121200682037 /* AllTeasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTeasViewController.swift; sourceTree = "<group>"; };
+		81CF449329A215F000682037 /* TeaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaCollectionViewCell.swift; sourceTree = "<group>"; };
+		81CF449529A33B2500682037 /* Tarot.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tarot.storyboard; sourceTree = "<group>"; };
+		E84CD12029B61378009741BD /* TarotPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotPromptViewController.swift; sourceTree = "<group>"; };
+		E898504129B5D43F000DCCFD /* CardsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsPicker.swift; sourceTree = "<group>"; };
+		E8A9924429DA537A005D632D /* DMSerifDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		E8A9924529DA537A005D632D /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		E8A9924629DA537A005D632D /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		E8A9924B29DA538B005D632D /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E8A9924C29DA538B005D632D /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E8A9924D29DA538B005D632D /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E8A9924E29DA538B005D632D /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E8A9924F29DA538B005D632D /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		E8A9925029DA538B005D632D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E8A9925129DA538B005D632D /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E8A9925229DA538B005D632D /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E8A9925329DA538B005D632D /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E8A9925429DA538B005D632D /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E8A9925529DA538B005D632D /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		E8A9925629DA538B005D632D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E8A9925729DA538B005D632D /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		E8A9925829DA538B005D632D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E8A9925929DA538B005D632D /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		E8A9925A29DA538B005D632D /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		E8A9925B29DA538B005D632D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E8A9925C29DA538B005D632D /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		E8A9925D29DA538B005D632D /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E8CB6D0029F1FD8500415863 /* PartialHighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialHighlightButton.swift; sourceTree = "<group>"; };
+		E8CB6D0229F72C9800415863 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		F95E3E582BB3F7460077CEF9 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		F95E3E5A2BB3FADE0077CEF9 /* App_Preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = App_Preview.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81ABD20D298B29D300B7C920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABD253298F64F100B7C920 /* FirebaseMessaging in Frameworks */,
+				81ABD24D298F64F100B7C920 /* FirebaseCrashlytics in Frameworks */,
+				81ABD249298F64F100B7C920 /* FirebaseAnalytics in Frameworks */,
+				81ABD25A298F78D100B7C920 /* MessageKit in Frameworks */,
+				81ABD26A298F9FF200B7C920 /* Kingfisher in Frameworks */,
+				81ABD251298F64F100B7C920 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				81ABD24B298F64F100B7C920 /* FirebaseAuth in Frameworks */,
+				81ABD24F298F64F100B7C920 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ABD223298B29D500B7C920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ABD22D298B29D500B7C920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81ABD207298B29D300B7C920 = {
+			isa = PBXGroup;
+			children = (
+				F95E3E5A2BB3FADE0077CEF9 /* App_Preview.gif */,
+				F95E3E582BB3F7460077CEF9 /* Readme.md */,
+				E8A9924A29DA538B005D632D /* Poppins */,
+				E8A9924329DA537A005D632D /* DM_Serif_Display */,
+				81ABD212298B29D300B7C920 /* Elixir */,
+				81ABD229298B29D500B7C920 /* ElixirTests */,
+				81ABD233298B29D500B7C920 /* ElixirUITests */,
+				81ABD211298B29D300B7C920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81ABD211298B29D300B7C920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81ABD210298B29D300B7C920 /* Elixir.app */,
+				81ABD226298B29D500B7C920 /* ElixirTests.xctest */,
+				81ABD230298B29D500B7C920 /* ElixirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81ABD212298B29D300B7C920 /* Elixir */ = {
+			isa = PBXGroup;
+			children = (
+				81ABD25B298F97FF00B7C920 /* Models */,
+				81ABD213298B29D300B7C920 /* AppDelegate.swift */,
+				767496D329D6D1E400598DB5 /* ReadingDetailsViewController.swift */,
+				81ABD254298F782F00B7C920 /* ChatViewController.swift */,
+				818C250D2998E6DB00B91137 /* HomeViewController.swift */,
+				81CF449129A2121200682037 /* AllTeasViewController.swift */,
+				8103B74629B4593A00FFDD8C /* RandomSelectionViewController.swift */,
+				8103B75F29D2703200FFDD8C /* PromptConfirmationViewController.swift */,
+				8103B76129D290C900FFDD8C /* TarotSelectionViewController.swift */,
+				8103B76329D2910A00FFDD8C /* ManualSelectionViewController.swift */,
+				8103B74829B461B300FFDD8C /* CardConfirmationViewController.swift */,
+				76CD8D2729D6003300FBC5FD /* FavoriteReadingViewController.swift */,
+				8103B74C29BE7AAA00FFDD8C /* CardResultViewController.swift */,
+				76CD8D2D29D6098A00FBC5FD /* TarotReadingsCellTableViewCell.swift */,
+				81CF449329A215F000682037 /* TeaCollectionViewCell.swift */,
+				E84CD12029B61378009741BD /* TarotPromptViewController.swift */,
+				81ABD215298B29D300B7C920 /* SceneDelegate.swift */,
+				E898504129B5D43F000DCCFD /* CardsPicker.swift */,
+				E8CB6D0029F1FD8500415863 /* PartialHighlightButton.swift */,
+				E8CB6D0229F72C9800415863 /* CustomTabBarController.swift */,
+				81ABD219298B29D300B7C920 /* Chat.storyboard */,
+				818C250B2998DA2D00B91137 /* Profile.storyboard */,
+				81CF449529A33B2500682037 /* Tarot.storyboard */,
+				81CF448F29A2107000682037 /* AllTeas.storyboard */,
+				818C25072998D6EB00B91137 /* Main.storyboard */,
+				76794A9129D6D40000417ECA /* Favorites.storyboard */,
+				81ABD21C298B29D500B7C920 /* Assets.xcassets */,
+				81ABD21E298B29D500B7C920 /* LaunchScreen.storyboard */,
+				81ABD221298B29D500B7C920 /* Info.plist */,
+				81ABD243298F63F700B7C920 /* GoogleService-Info.plist */,
+			);
+			path = Elixir;
+			sourceTree = "<group>";
+		};
+		81ABD229298B29D500B7C920 /* ElixirTests */ = {
+			isa = PBXGroup;
+			children = (
+				81ABD22A298B29D500B7C920 /* ElixirTests.swift */,
+			);
+			path = ElixirTests;
+			sourceTree = "<group>";
+		};
+		81ABD233298B29D500B7C920 /* ElixirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81ABD234298B29D500B7C920 /* ElixirUITests.swift */,
+				81ABD236298B29D500B7C920 /* ElixirUITestsLaunchTests.swift */,
+			);
+			path = ElixirUITests;
+			sourceTree = "<group>";
+		};
+		81ABD25B298F97FF00B7C920 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81CF448B29A209CB00682037 /* herbs.json */,
+				8103B74229B44C5000FFDD8C /* tarot.json */,
+				813923FF29DB3788007A9694 /* tarot_hi_res.json */,
+				8139240129E48607007A9694 /* v4_tarot_no_border.json */,
+				81B56C9D29F85E11005193A6 /* v5_tarot_compressed.json */,
+				81ABD25C298F981A00B7C920 /* Chat.swift */,
+				81ABD260298F983100B7C920 /* ChatUser.swift */,
+				81ABD264298F983D00B7C920 /* Message.swift */,
+				767725B62999CCFD00D07A72 /* Constants.swift */,
+				81CF448729A2086B00682037 /* Herb.swift */,
+				81CF448929A2092600682037 /* ElixirModel.swift */,
+				8103B74429B4568E00FFDD8C /* Tarot.swift */,
+				8103B76529D2D1A400FFDD8C /* TarotReading.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8A9924329DA537A005D632D /* DM_Serif_Display */ = {
+			isa = PBXGroup;
+			children = (
+				E8A9924429DA537A005D632D /* DMSerifDisplay-Italic.ttf */,
+				E8A9924529DA537A005D632D /* DMSerifDisplay-Regular.ttf */,
+				E8A9924629DA537A005D632D /* OFL.txt */,
+			);
+			path = DM_Serif_Display;
+			sourceTree = "<group>";
+		};
+		E8A9924A29DA538B005D632D /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				E8A9924B29DA538B005D632D /* Poppins-ExtraLight.ttf */,
+				E8A9924C29DA538B005D632D /* Poppins-ThinItalic.ttf */,
+				E8A9924D29DA538B005D632D /* Poppins-ExtraLightItalic.ttf */,
+				E8A9924E29DA538B005D632D /* Poppins-BoldItalic.ttf */,
+				E8A9924F29DA538B005D632D /* Poppins-Light.ttf */,
+				E8A9925029DA538B005D632D /* Poppins-Medium.ttf */,
+				E8A9925129DA538B005D632D /* Poppins-SemiBoldItalic.ttf */,
+				E8A9925229DA538B005D632D /* Poppins-ExtraBoldItalic.ttf */,
+				E8A9925329DA538B005D632D /* Poppins-ExtraBold.ttf */,
+				E8A9925429DA538B005D632D /* Poppins-BlackItalic.ttf */,
+				E8A9925529DA538B005D632D /* OFL.txt */,
+				E8A9925629DA538B005D632D /* Poppins-Regular.ttf */,
+				E8A9925729DA538B005D632D /* Poppins-LightItalic.ttf */,
+				E8A9925829DA538B005D632D /* Poppins-Bold.ttf */,
+				E8A9925929DA538B005D632D /* Poppins-Black.ttf */,
+				E8A9925A29DA538B005D632D /* Poppins-Thin.ttf */,
+				E8A9925B29DA538B005D632D /* Poppins-SemiBold.ttf */,
+				E8A9925C29DA538B005D632D /* Poppins-Italic.ttf */,
+				E8A9925D29DA538B005D632D /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81ABD20F298B29D300B7C920 /* Elixir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ABD23A298B29D500B7C920 /* Build configuration list for PBXNativeTarget "Elixir" */;
+			buildPhases = (
+				81ABD20C298B29D300B7C920 /* Sources */,
+				81ABD20D298B29D300B7C920 /* Frameworks */,
+				81ABD20E298B29D300B7C920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elixir;
+			packageProductDependencies = (
+				81ABD248298F64F100B7C920 /* FirebaseAnalytics */,
+				81ABD24A298F64F100B7C920 /* FirebaseAuth */,
+				81ABD24C298F64F100B7C920 /* FirebaseCrashlytics */,
+				81ABD24E298F64F100B7C920 /* FirebaseFirestoreSwift */,
+				81ABD250298F64F100B7C920 /* FirebaseInAppMessagingSwift-Beta */,
+				81ABD252298F64F100B7C920 /* FirebaseMessaging */,
+				81ABD259298F78D100B7C920 /* MessageKit */,
+				81ABD269298F9FF200B7C920 /* Kingfisher */,
+			);
+			productName = Elixir;
+			productReference = 81ABD210298B29D300B7C920 /* Elixir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81ABD225298B29D500B7C920 /* ElixirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ABD23D298B29D500B7C920 /* Build configuration list for PBXNativeTarget "ElixirTests" */;
+			buildPhases = (
+				81ABD222298B29D500B7C920 /* Sources */,
+				81ABD223298B29D500B7C920 /* Frameworks */,
+				81ABD224298B29D500B7C920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ABD228298B29D500B7C920 /* PBXTargetDependency */,
+			);
+			name = ElixirTests;
+			productName = ElixirTests;
+			productReference = 81ABD226298B29D500B7C920 /* ElixirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81ABD22F298B29D500B7C920 /* ElixirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ABD240298B29D500B7C920 /* Build configuration list for PBXNativeTarget "ElixirUITests" */;
+			buildPhases = (
+				81ABD22C298B29D500B7C920 /* Sources */,
+				81ABD22D298B29D500B7C920 /* Frameworks */,
+				81ABD22E298B29D500B7C920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ABD232298B29D500B7C920 /* PBXTargetDependency */,
+			);
+			name = ElixirUITests;
+			productName = ElixirUITests;
+			productReference = 81ABD230298B29D500B7C920 /* ElixirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81ABD208298B29D300B7C920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					81ABD20F298B29D300B7C920 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					81ABD225298B29D500B7C920 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 81ABD20F298B29D300B7C920;
+					};
+					81ABD22F298B29D500B7C920 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 81ABD20F298B29D300B7C920;
+					};
+				};
+			};
+			buildConfigurationList = 81ABD20B298B29D300B7C920 /* Build configuration list for PBXProject "Elixir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81ABD207298B29D300B7C920;
+			packageReferences = (
+				81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				81ABD258298F78D100B7C920 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				81ABD268298F9FF200B7C920 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 81ABD211298B29D300B7C920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81ABD20F298B29D300B7C920 /* Elixir */,
+				81ABD225298B29D500B7C920 /* ElixirTests */,
+				81ABD22F298B29D500B7C920 /* ElixirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81ABD20E298B29D300B7C920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A9925E29DA538B005D632D /* Poppins-ExtraLight.ttf in Resources */,
+				8139240029DB3788007A9694 /* tarot_hi_res.json in Resources */,
+				E8A9927029DA538B005D632D /* Poppins-MediumItalic.ttf in Resources */,
+				E8A9925F29DA538B005D632D /* Poppins-ThinItalic.ttf in Resources */,
+				E8A9924729DA537A005D632D /* DMSerifDisplay-Italic.ttf in Resources */,
+				E8A9926729DA538B005D632D /* Poppins-BlackItalic.ttf in Resources */,
+				E8A9926029DA538B005D632D /* Poppins-ExtraLightItalic.ttf in Resources */,
+				81CF449029A2107000682037 /* AllTeas.storyboard in Resources */,
+				F95E3E5B2BB3FADE0077CEF9 /* App_Preview.gif in Resources */,
+				E8A9926529DA538B005D632D /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				81CF449629A33B2500682037 /* Tarot.storyboard in Resources */,
+				E8A9926D29DA538B005D632D /* Poppins-Thin.ttf in Resources */,
+				8139240229E48607007A9694 /* v4_tarot_no_border.json in Resources */,
+				E8F3750A29D9D8880075F37E /* Assets.xcassets in Resources */,
+				81ABD220298B29D500B7C920 /* LaunchScreen.storyboard in Resources */,
+				E8A9926329DA538B005D632D /* Poppins-Medium.ttf in Resources */,
+				E8A9926129DA538B005D632D /* Poppins-BoldItalic.ttf in Resources */,
+				81B56C9E29F85E11005193A6 /* v5_tarot_compressed.json in Resources */,
+				E8A9926229DA538B005D632D /* Poppins-Light.ttf in Resources */,
+				818C25082998D6EB00B91137 /* Main.storyboard in Resources */,
+				E8A9926929DA538B005D632D /* Poppins-Regular.ttf in Resources */,
+				E8A9926C29DA538B005D632D /* Poppins-Black.ttf in Resources */,
+				E8A9926829DA538B005D632D /* OFL.txt in Resources */,
+				8103B74329B44C5000FFDD8C /* tarot.json in Resources */,
+				81ABD244298F63F700B7C920 /* GoogleService-Info.plist in Resources */,
+				76794A9229D6D40000417ECA /* Favorites.storyboard in Resources */,
+				E8A9924829DA537A005D632D /* DMSerifDisplay-Regular.ttf in Resources */,
+				F95E3E592BB3F7460077CEF9 /* Readme.md in Resources */,
+				E8A9926429DA538B005D632D /* Poppins-SemiBoldItalic.ttf in Resources */,
+				818C250C2998DA2D00B91137 /* Profile.storyboard in Resources */,
+				E8A9926E29DA538B005D632D /* Poppins-SemiBold.ttf in Resources */,
+				E8A9926F29DA538B005D632D /* Poppins-Italic.ttf in Resources */,
+				E8A9926B29DA538B005D632D /* Poppins-Bold.ttf in Resources */,
+				81CF448C29A209CB00682037 /* herbs.json in Resources */,
+				81ABD21B298B29D300B7C920 /* Chat.storyboard in Resources */,
+				E8A9926A29DA538B005D632D /* Poppins-LightItalic.ttf in Resources */,
+				E8A9926629DA538B005D632D /* Poppins-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ABD224298B29D500B7C920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABD245298F63F700B7C920 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ABD22E298B29D500B7C920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABD246298F63F700B7C920 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81ABD20C298B29D300B7C920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CB6D0129F1FD8500415863 /* PartialHighlightButton.swift in Sources */,
+				81ABD214298B29D300B7C920 /* AppDelegate.swift in Sources */,
+				76CD8D2E29D6098A00FBC5FD /* TarotReadingsCellTableViewCell.swift in Sources */,
+				81ABD25D298F981A00B7C920 /* Chat.swift in Sources */,
+				8103B74929B461B300FFDD8C /* CardConfirmationViewController.swift in Sources */,
+				81CF448829A2086B00682037 /* Herb.swift in Sources */,
+				81CF449429A215F000682037 /* TeaCollectionViewCell.swift in Sources */,
+				8103B74729B4593A00FFDD8C /* RandomSelectionViewController.swift in Sources */,
+				81ABD255298F782F00B7C920 /* ChatViewController.swift in Sources */,
+				E898504229B5D43F000DCCFD /* CardsPicker.swift in Sources */,
+				81ABD265298F983D00B7C920 /* Message.swift in Sources */,
+				81ABD216298B29D300B7C920 /* SceneDelegate.swift in Sources */,
+				767496D429D6D1E400598DB5 /* ReadingDetailsViewController.swift in Sources */,
+				8103B76429D2910A00FFDD8C /* ManualSelectionViewController.swift in Sources */,
+				76CD8D2829D6003300FBC5FD /* FavoriteReadingViewController.swift in Sources */,
+				81CF449229A2121200682037 /* AllTeasViewController.swift in Sources */,
+				8103B74529B4568E00FFDD8C /* Tarot.swift in Sources */,
+				81CF448A29A2092600682037 /* ElixirModel.swift in Sources */,
+				818C250E2998E6DB00B91137 /* HomeViewController.swift in Sources */,
+				81ABD261298F983100B7C920 /* ChatUser.swift in Sources */,
+				8103B74D29BE7AAA00FFDD8C /* CardResultViewController.swift in Sources */,
+				8103B76229D290C900FFDD8C /* TarotSelectionViewController.swift in Sources */,
+				E84CD12129B61378009741BD /* TarotPromptViewController.swift in Sources */,
+				8103B76629D2D1A500FFDD8C /* TarotReading.swift in Sources */,
+				8103B76029D2703200FFDD8C /* PromptConfirmationViewController.swift in Sources */,
+				767725B72999CCFD00D07A72 /* Constants.swift in Sources */,
+				E8CB6D0329F72C9800415863 /* CustomTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ABD222298B29D500B7C920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABD22B298B29D500B7C920 /* ElixirTests.swift in Sources */,
+				E898504329B5D43F000DCCFD /* CardsPicker.swift in Sources */,
+				E84CD12229B61378009741BD /* TarotPromptViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ABD22C298B29D500B7C920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ABD235298B29D500B7C920 /* ElixirUITests.swift in Sources */,
+				E84CD12329B61378009741BD /* TarotPromptViewController.swift in Sources */,
+				E898504429B5D43F000DCCFD /* CardsPicker.swift in Sources */,
+				81ABD237298B29D500B7C920 /* ElixirUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81ABD228298B29D500B7C920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ABD20F298B29D300B7C920 /* Elixir */;
+			targetProxy = 81ABD227298B29D500B7C920 /* PBXContainerItemProxy */;
+		};
+		81ABD232298B29D500B7C920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ABD20F298B29D300B7C920 /* Elixir */;
+			targetProxy = 81ABD231298B29D500B7C920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81ABD219298B29D300B7C920 /* Chat.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ABD21A298B29D300B7C920 /* Base */,
+			);
+			name = Chat.storyboard;
+			sourceTree = "<group>";
+		};
+		81ABD21E298B29D500B7C920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ABD21F298B29D500B7C920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81ABD238298B29D500B7C920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81ABD239298B29D500B7C920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81ABD23B298B29D500B7C920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6HV2PFWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elixir/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Third Eye Tarot";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackstark.Elixir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81ABD23C298B29D500B7C920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6HV2PFWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elixir/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Third Eye Tarot";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackstark.Elixir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81ABD23E298B29D500B7C920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6HV2PFWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackstark.ElixirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elixir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elixir";
+			};
+			name = Debug;
+		};
+		81ABD23F298B29D500B7C920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6HV2PFWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackstark.ElixirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elixir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elixir";
+			};
+			name = Release;
+		};
+		81ABD241298B29D500B7C920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6HV2PFWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackstark.ElixirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elixir;
+			};
+			name = Debug;
+		};
+		81ABD242298B29D500B7C920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF6HV2PFWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jackstark.ElixirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elixir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81ABD20B298B29D300B7C920 /* Build configuration list for PBXProject "Elixir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ABD238298B29D500B7C920 /* Debug */,
+				81ABD239298B29D500B7C920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ABD23A298B29D500B7C920 /* Build configuration list for PBXNativeTarget "Elixir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ABD23B298B29D500B7C920 /* Debug */,
+				81ABD23C298B29D500B7C920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ABD23D298B29D500B7C920 /* Build configuration list for PBXNativeTarget "ElixirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ABD23E298B29D500B7C920 /* Debug */,
+				81ABD23F298B29D500B7C920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ABD240298B29D500B7C920 /* Build configuration list for PBXNativeTarget "ElixirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ABD241298B29D500B7C920 /* Debug */,
+				81ABD242298B29D500B7C920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		81ABD258298F78D100B7C920 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		81ABD268298F9FF200B7C920 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81ABD248298F64F100B7C920 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		81ABD24A298F64F100B7C920 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		81ABD24C298F64F100B7C920 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		81ABD24E298F64F100B7C920 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		81ABD250298F64F100B7C920 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		81ABD252298F64F100B7C920 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD247298F64F100B7C920 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		81ABD259298F78D100B7C920 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD258298F78D100B7C920 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		81ABD269298F9FF200B7C920 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ABD268298F9FF200B7C920 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 81ABD208298B29D300B7C920 /* Project object */;
+}

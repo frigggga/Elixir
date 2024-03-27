@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mCD-Te-ad6">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Pqd-Y4-Gf0">
+            <objects>
+                <navigationController id="mCD-Te-ad6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o4I-1V-Pch">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="ezv-fW-j7a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LFk-DK-Yjg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-834" y="-2"/>
+        </scene>
+        <!--All Teas-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="AllTeasViewController" customModule="Elixir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uRd-pk-93S">
+                                <rect key="frame" x="0.0" y="123" width="393" height="646"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3IX-0I-as5">
+                                    <size key="itemSize" width="186" height="201"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="teaCell" id="nQE-Wa-AO3" customClass="TeaCollectionViewCell" customModule="Elixir" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="186" height="201"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vyc-Ti-fAZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="186" height="201"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ci0-1C-gOR">
+                                                    <rect key="frame" x="0.0" y="0.0" width="186" height="186"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Ci0-1C-gOR" secondAttribute="height" multiplier="1:1" id="fFJ-qC-NR2"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz0-8w-lZX">
+                                                    <rect key="frame" x="0.0" y="186" width="186" height="15"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="jz0-8w-lZX" secondAttribute="trailing" id="0Z2-7s-wjF"/>
+                                                <constraint firstItem="jz0-8w-lZX" firstAttribute="top" secondItem="Ci0-1C-gOR" secondAttribute="bottom" id="Vse-ah-hjE"/>
+                                                <constraint firstAttribute="trailing" secondItem="Ci0-1C-gOR" secondAttribute="trailing" id="aba-fG-deN"/>
+                                                <constraint firstAttribute="bottom" secondItem="jz0-8w-lZX" secondAttribute="bottom" id="eoh-dU-v9m"/>
+                                                <constraint firstItem="Ci0-1C-gOR" firstAttribute="leading" secondItem="vyc-Ti-fAZ" secondAttribute="leading" id="f6k-8K-dEB"/>
+                                                <constraint firstItem="Ci0-1C-gOR" firstAttribute="top" secondItem="vyc-Ti-fAZ" secondAttribute="top" id="hQ2-Po-CYk"/>
+                                                <constraint firstItem="jz0-8w-lZX" firstAttribute="leading" secondItem="vyc-Ti-fAZ" secondAttribute="leading" id="lHP-XZ-Hta"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="186" height="201"/>
+                                        <connections>
+                                            <outlet property="teaImage" destination="Ci0-1C-gOR" id="i98-eZ-Q4Z"/>
+                                            <outlet property="teaNameLabel" destination="jz0-8w-lZX" id="exd-0p-xLn"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uRd-pk-93S" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="4vI-3o-bpd"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="uRd-pk-93S" secondAttribute="trailing" id="Ey4-iM-MsC"/>
+                            <constraint firstItem="uRd-pk-93S" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="dul-s3-Ha3"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="uRd-pk-93S" secondAttribute="bottom" id="oKS-Nm-ork"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="All Teas" image="allTeaBlank" selectedImage="allTea" id="cNn-jb-lU1"/>
+                    <navigationItem key="navigationItem" id="18e-Gy-AeB"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="collectionView" destination="uRd-pk-93S" id="UcW-uJ-Lvk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129.00763358778624" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="allTea" width="30.666666030883789" height="30.666666030883789"/>
+        <image name="allTeaBlank" width="16" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
