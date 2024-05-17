@@ -1,6 +1,6 @@
 ## GIF Preview
 
-<img src="./App_Preview.gif"/>
+<img src="./App_Preview.gif" width="200"/>
 
 ## Keywords
 
